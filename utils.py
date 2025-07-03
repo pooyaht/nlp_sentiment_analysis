@@ -76,3 +76,11 @@ def cv_trainer(
         f"\nBest Model: {best_model_name} (Test Score: {best_test_score:.4f})")
 
     return all_results
+
+
+def is_in_colab():
+    try:
+        import google.colab  # type: ignore
+        return True
+    except ImportError:
+        return False
