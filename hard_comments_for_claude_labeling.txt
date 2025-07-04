@@ -1,0 +1,2452 @@
+PERSIAN E-COMMERCE COMMENTS FOR SENTIMENT LABELING
+============================================================
+
+INSTRUCTIONS:
+Please label each comment with:
+- 0 for Negative sentiment
+- 1 for Positive sentiment
+- 2 for Neutral sentiment
+
+Consider the HOOSHVARE (BERT) label as more reliable than Ollama label. But your judgement is most important.
+Provide a brief reason for your decision.
+
+EXPECTED OUTPUT FORMAT:
+ID,LABEL,REASON
+example_id,0,"Customer complains about product quality"
+
+============================================================
+COMMENTS TO LABEL:
+============================================================
+
+COMMENT 1/304
+ID: 7
+TEXT: با عرض سلام و خسته نباشید خدمت تیم محترم دیجی کالا اگه بخوام نظرمو در مورد کالا بدم اینه که برد بیسیمش که قید شده 18متر اشتباه پنچ متر بیشتر نیست و بعضی وقتها هم نویز میگیره.
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.569)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Incorrect advertised range (18m) and noise issues indicate a negative experience with the product.
+----------------------------------------
+
+COMMENT 2/304
+ID: 43
+TEXT: دستگاه رو تازه گرفتم و فوق العادست ولی تحویلش فاجعه بود, 3 روز دیر به دستم رسید...
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.726)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Delivery issue (3 days delay) overrides positive initial impression.
+----------------------------------------
+
+COMMENT 3/304
+ID: 46
+TEXT: بسته بندی مناسب, شرایط ظاهری خوب, گلس محافظ چندان مرغوب نبود.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.728)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: While packaging and appearance are good, the case quality is poor, leading to a negative overall impression.
+----------------------------------------
+
+COMMENT 4/304
+ID: 52
+TEXT: پیشنهاد من فقط خرید در زمان شگفت انگیزه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.572)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “پیشنهاد میکنم” (Suggests buying) indicates a positive recommendation.
+----------------------------------------
+
+COMMENT 5/304
+ID: 53
+TEXT: با کیفیت هستش ولی اتصال آهنربایی شارژر چفت و محکم نمیشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.656)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Product quality is acknowledged, but weak magnetic charger connection leads to dissatisfaction.
+----------------------------------------
+
+COMMENT 6/304
+ID: 63
+TEXT: این ساعتو برای پسرم گرفتم تا حالا که ازش راضیه فقط شارژ کردنش چون مگنت یه خورده سخته آبشناش بد نیست خوبه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.598)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: The user is satisfied with the watch ("رضیه") and acknowledges a minor inconvenience (charging difficulty) but overall considers it "good" (خوبه).
+----------------------------------------
+
+COMMENT 7/304
+ID: 64
+TEXT: برای مچ دست من بزرگ بود, ولی امکاناتش اکی بود
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.61)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “ولی” indicates a negative aspect (too big for wrist) despite acknowledging “امکاناتش اکی بود” (features were okay).
+----------------------------------------
+
+COMMENT 8/304
+ID: 67
+TEXT: یک ساعت هوشمند معمولی. نه خیلی خوبه نه خیلی بد. من همزمان با این ساعت یک ساعت هوشمند دیگه هم تو رنج قیمتی این ساعت خریدم ولی اون خیلی بهتر بود.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.559)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review states it's "ordinary" and compares unfavorably to another product, indicating disappointment.
+----------------------------------------
+
+COMMENT 9/304
+ID: 81
+TEXT: محصول خیلی زدگی داشت. و پایه نگهدارندش شل بود. فکر کنم محصول معیوبشون رو برام فرستادن که ارزش مرجوعی نداشت. ولی در کل محصول کار راه اندازیه اگه معیوب نباشه.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.621)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Product has defects and unstable base, despite a functional starting point.
+----------------------------------------
+
+COMMENT 10/304
+ID: 84
+TEXT: خوب بود فقط رنگش ورد پسند نبود پیشنهاد می‌کنم قبل از ثبت سفارش رنگ مورد دلخواه خود را انتخاب نمایید
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.623)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: The review states "خوب بود" (good) initially, then adds a recommendation to choose the desired color before ordering. This leans towards a positive sentiment due to the recommendation.
+----------------------------------------
+
+COMMENT 11/304
+ID: 95
+TEXT: نسبتا کالای به درد بخوریه ولی جنسش کیفیت مناسبی نداره و زیبایی خاصی نداره اصلا پلاستیک بی کیفیتیه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.747)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Contains negative indicators ("کیفیت مناسبی نداره", "پلاستیک بی کیفیتیه") and expresses disappointment.
+----------------------------------------
+
+COMMENT 12/304
+ID: 96
+TEXT: با سلام. در توضیحات کالا نوشته شده شده مناسب تبلت ولی بنظرم نه تنها مناسب تبلت نیست بلکه حتی اگه گوشی شما هم کمی سنگین باشه نمیتونه وزن رو تحمل کنه و 180 درجه باز میشه!
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.735)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicitly states the product cannot handle heavier devices and expresses disappointment, indicating a negative experience.
+----------------------------------------
+
+COMMENT 13/304
+ID: 98
+TEXT: سلام وقت بخیر سوال من رنگ طوسی انتخاب کردم ولی رنگ سیاه تحویل گرفتم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.59)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Received incorrect color (black) despite selecting grey, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 14/304
+ID: 114
+TEXT: تا حالا از این پایه بیشتر از 10 عدد خریدم و هدیه دادم .
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.444)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Pure factual statement about purchase history and gifting. No sentiment expressed.
+----------------------------------------
+
+COMMENT 15/304
+ID: 121
+TEXT: رنگ مشکی بد نیست بقیه رنگا فوق العاده زشت و بی کیفیت گول عکس رو نخورید
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.679)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: Expresses strong disapproval and warns against being misled by the product's appearance, indicating a poor quality experience.
+----------------------------------------
+
+COMMENT 16/304
+ID: 135
+TEXT: من مثل تصویر مشکی خاکستری سفارش دادم, اما مشکی نارنجی برام فرستادن. قسمت تنظیم پایه اش نرم و خوب بود ولی یک مدل دیگه هم که همزمان سفارش داده بودم رنگ لیمویی بود که پایه اش خیلی سفت بود و به سختی درجه اش تنظیم میشد. و اون قسمت که در تصویر نارنجی میبینید جنسش پلاستیک فشرده بود ولی توی مدل دیگه که توی تصویر خاکستری مشاهده میکنید, جنسش مثل سیلیکونی بود. ولی در کل خوب بود نسبت به قیمتش
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.609)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed negative sentiment: Wrong color received, stiff silicone base, and a contrasting material (plastic) create a negative experience despite a reasonable price.
+----------------------------------------
+
+COMMENT 17/304
+ID: 141
+TEXT: پلاستیک هستش با این قیمت بصرفه اس باز
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.681)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “بصرفه اس” (It’s not cost
+----------------------------------------
+
+COMMENT 18/304
+ID: 145
+TEXT: زیاد کاربردی نبود ولی خوب بود
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.618)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “خوب بود” indicates a positive experience despite the comment about lack of practicality.
+----------------------------------------
+
+COMMENT 19/304
+ID: 147
+TEXT: جنسش نسبت به قیمتش خیلی خوبه ولی آدم می‌ترسه چهاربار باز و بست کنه, یه حالت بذارین و همیشه از همون استفاده کنید چون توی باز و بست زیاد میشکنه, راستی بامپر زیرش لاستیکیه هم خط میندازه روی گوشی هم سفت میگیره, ضمنا با بامپر 10 میلیمتر و بدون اون 13 میلیمتر عمق داره و می تونید هر گوشی و هر تبلتی ( با قطر حتی 1سانتی متری) رو بذارین اگه گوشیتون جا نمیشه گاردش رو در بیارین اوکیه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.697)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Initial praise ("خیلی خوبه") is countered by concerns about fragility and potential damage, leading to a negative overall assessment.
+----------------------------------------
+
+COMMENT 20/304
+ID: 160
+TEXT: قبلاً یکی خریده بودم احساس میکنم جنس محصول نسب به قبلی ضعیف تر شده و پایه به راحتی تنظیم نمیشه ولی در کل لازمه یکی از این تو هر خونه ای باشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.604)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Complaint about decreased quality compared to a previous purchase, combined with difficulty adjusting the base, indicating a negative experience.
+----------------------------------------
+
+COMMENT 21/304
+ID: 162
+TEXT: خوبه ولی باید گارد گوشیتو در بیاری یا در نیاوردیم کیپ نمیشه توش
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.563)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “خوبه” suggests a positive initial impression, but the subsequent complaint about the guard causing issues indicates a negative overall experience.
+----------------------------------------
+
+COMMENT 22/304
+ID: 176
+TEXT: جنس پلاستیکش خیلی عالی نیست, اما به نسبت قیمتش می ارزه!
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.598)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative sentiment due to "جنس پلاستیکش خیلی عالی نیست" (the plastic material isn't very good), despite acknowledging value for money.
+----------------------------------------
+
+COMMENT 23/304
+ID: 209
+TEXT: یه پایه سبک, معمولی که فکر میکنم چون ارزونه ارزش خرید داره ولی برا کسی که پشت میز میشینه و بخواد مثلافیلم ببینه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.5)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “معمولی ولی برای این قیمت خوب”
+----------------------------------------
+
+COMMENT 24/304
+ID: 222
+TEXT: کیفیت ساخت و پرداخت قطعاتش پایینه ولی برای پشت میز اداره خوبه . اگر گوشیتون مثل گوشی من قاب داشته باشه باید پوسته تکیه گاه زیری رو بکنید تا گوشی جا بشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.554)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: Despite acknowledging poor build quality, the reviewer ultimately finds it "good" for a specific use case, but highlights the incompatibility issue with the phone case.
+----------------------------------------
+
+COMMENT 25/304
+ID: 241
+TEXT: تنظیم حالتش زود خراب میشه با چسب در وضعیت ثابت قرار دادم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.597)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions the item "soon breaks" and being "fixed with glue," indicating a negative experience with the product's durability.
+----------------------------------------
+
+COMMENT 26/304
+ID: 243
+TEXT: من یدونه از آراسپ خریدم و یدونه از کلوپ سبز... اونی که از کلوپ سبز اومد واقعا جنس پلاستیکش خوبه...هم بزرگه هم واسه عمودی و افقی نگه داشتن گوشی مناسبه... اونی که از کلوپ سبز خریدم خیلی خوب برش خورده و هیچ گوشه‌ی تیزی نداره...ولی اونی که از آراسپ خریدم خیییییلی بد برش خورده و واقعا قابل مقایسه نیست.... خلاصه که دقت کنید...
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.725)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The reviewer describes a very poor experience with the Arasp product and a good experience with the Klop Sabz product, indicating a negative overall sentiment due to the significant difference in quality.
+----------------------------------------
+
+COMMENT 27/304
+ID: 257
+TEXT: خیلی گرد و خاک داشت و جنسش خوب نیست ولی خب نسبت به قیمتش خوبه خیلیم کوچیکه ولی نگه میداره
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.583)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Contains negative indicators ("گرد و خاک داشت", "جنسش خوب نیست") and a mitigating positive ("نسبت به قیمتش خوبه") suggesting overall dissatisfaction.
+----------------------------------------
+
+COMMENT 28/304
+ID: 260
+TEXT: بعضیا نوشته بودن وزن گوشی رو نمیتونه تحمل کنه گوشی من A32سامسونگ هست تقریبا بزرگه و با کاورش خیلی سبک.نیست,ولی پایه جوری طراحی شده که کاملا وزن رو تحمل میکنه و اصلا جم نمیخوره,در واقع اصلا روان نیست که بخواد ول کنه و نگه نداره جنسش معمولیه که با توجه به قیمتش کاملا قابل قبوله فقط من نشکی سفارش داده بودم سبز فرستادن
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.669)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Several negative mentions ("نمی‌تونه تحمل کنه", "افتضاح") combined with receiving the wrong color (سبز instead of desired color) indicates a negative experience despite claims of structural integrity.
+----------------------------------------
+
+COMMENT 29/304
+ID: 265
+TEXT: حدودا یک ماه پیش از بیرون برای خودم با دو برابر و یکم بیشتر از این قیمت از بیرون خریدم هر کی اینو دید گفت منم میخوام منتظر بودم گذرم به اون سمت مغازه بخوره که سه تا بخرم تا در دیجی با قیمت خیلی خیلی مناسب دیدم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.45)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review expresses disappointment with the price compared to what was purchased elsewhere, indicating a negative experience.
+----------------------------------------
+
+COMMENT 30/304
+ID: 270
+TEXT: طراحی ظریف و شکننده ای داره مخصوصا موقع تغییر زاویه دادن باید مواظب پایه نگهدارنده بود. قسمت پایینش هم زیاد جا در نظر نگرفتن و شاید گوشی با کاورش تو اون قسمت جا نشه!
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.538)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: Mentions fragility ("شکننده") and potential incompatibility ("جا نشه") with the case, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 31/304
+ID: 273
+TEXT: برخلاف نظر کاربرای دیگ ک خوندم و انقد بد گفته بودن خدایی خوب بود و باید ازش درست استفاده کرد البته برای گوشی من یه کم کوچیکه ک لاستیکو بیرون بیارم حله ولی داخل مشخصات فنی زده برای چه اندازه ای و مشکل سازنده نیست که میخری و کوچیکه مشکل ماست ک دقت نمیکنیم و درکل راضیم و باید باهاش درست برخورد کرد ک نشکنه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.557)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Initially negative due to mentions of bad reviews, but ultimately positive due to successful use and satisfaction despite minor size issue.
+----------------------------------------
+
+COMMENT 32/304
+ID: 280
+TEXT: با توجه به قیمتش نباید انتظار زیادی داشت. یکی از کاربران کیفیت رنگ صورتی رو پسندیده بودن که منم بر اساس حرف ایشون رنگ صورتی رو سفارش دادم. سالم بدستم رسید ولی قسمت پشتش که پایه هست برای تبلت اصلا نمی ایسته و از خار رد میکنه برای همین یه چسب زدم که نگهداره. تبلت من بزرگ هست 12 اینچی, و برای تبلت های بزرگ اصلا مناسب نیست ولی برای گوشی و شاید تبلت های کوچیک خوب باشه. برای منم کیفیت موادش در حد درجه سه بود
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.707)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed negative sentiment: mentions poor quality materials, doesn't stay on tablet, and unsuitable for large tablets, despite one user liking the pink color.
+----------------------------------------
+
+COMMENT 33/304
+ID: 284
+TEXT: داخل عکس گذاشتم کیفیت و رنگش خودتون قضاوت کنید
+HOOSHVARE (BERT) PREDICTION: Negative (Score: 0.579)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Purely descriptive statement about a photo. No sentiment expressed.
+----------------------------------------
+
+COMMENT 34/304
+ID: 287
+TEXT: جنس خیلی عالی نداره و اینکه اگر یکم باز بشه یهو از دو طرف باز میشه و وامیره من گوشیم قاب هم داره روش جا میشهفقط زیاد بازش نمی کنم که وا نره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.664)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review expresses dissatisfaction with the product's quality ("جنس خیلی عالی نداره") and a specific issue (sudden opening and failure) leading to a negative classification.
+----------------------------------------
+
+COMMENT 35/304
+ID: 292
+TEXT: زیاد توقع جنس خوب نداشته باشید درواقع در قبال هزینه ای که میکنید چیزی که دریافت میکنید بهتر از اون نمیشه! پس توقع بیجا نباید داشت ولی میشد بهتر بشه! البته برای من یه شکستگی بزرگ داشت رو لولا که واقعا بد بود ولی خب ارزش پس دادن نداره! درکل کار راه اندازه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.736)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Contains negative indicators ("بد بود") but also a mitigating factor ("ارزش پس دادن نداره") and a generally neutral statement ("در کل کار راه اندازه"). The negative sentiment outweighs the neutral aspects.
+----------------------------------------
+
+COMMENT 36/304
+ID: 293
+TEXT: سلام قیمتش پایینه اما کیفیتشم پایینه. من فکر میکنم که کیفیت رو ببرن بالاتر و قیمت رو هم ببرن بالاتر, من 9900 تومان خریدم, اگر قیمت 15000 تومان بود و کیفیت خوب داشت راضی بودم. متاسفانه لولای طوسی رنگ دراومد همون اول کار, اومدم جابندازم که شکست, تو عکسها مشخصه. و اینکه زائده هاش رو نگرفته بودن, میشد با یه پرداخت معمولی زائده ها رو گرفت.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.521)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant quality issues (broken hinge, missing accents) combined with unmet expectations regarding price.
+----------------------------------------
+
+COMMENT 37/304
+ID: 294
+TEXT: جنسش خوب فقط مشکلی که داره گوس یا تبلت اگر روی آن قرار بدهید که چفت بشه وتکان نخوره باید از کاور در بیاورید در غیر این صورت شیارش تنگ است. درکل پیشنهاد نمی کنم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.691)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review highlights a significant issue (tight fit) and explicitly states "در کل پیشنهاد نمی کنم" (overall, I don't recommend), indicating a negative experience.
+----------------------------------------
+
+COMMENT 38/304
+ID: 300
+TEXT: بسته بندی افتضاح بدون هیچ سلیقه ای واقعا که ولی خود جنس کاربردی و سالم بود یکی داخل کارتون خودش پاره یکی داخل مشما بسته بندی خیلی به زیبایی کالا ارزش میده که متاسفانه تو ذوقم خورد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.602)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Poor packaging and aesthetic issues outweigh the positive aspects of the product itself.
+----------------------------------------
+
+COMMENT 39/304
+ID: 310
+TEXT: خوب و کاربردی ولی پشتی واسه من خیلی سفت نیست و شله و باز درجه تنظیمش بهم میخوره اگه یکم فشار بیاد زیاد نباید تکون داد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.721)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: The review starts with "خوب و کاربردی" (good and useful) indicating a positive initial impression. Despite mentioning a slight issue ("سفت نیست و شله"), the final statement about the temperature setting being suitable ("اگر یکم فشار بیاد زیاد نباید تکون داد") suggests a positive overall experience and a functional product.
+----------------------------------------
+
+COMMENT 40/304
+ID: 321
+TEXT: خوب و جمع و جوره. زاویه شم قابل تنظیمه. فقط صدای بدی میده موقع تنظیم که ممکنه فکر کنین شکننده است. ولی من بعد از یک ماه مشکلی نداشتم. نگهدارنده پایینش یه مقدار تنگه. یه لاستیک داره برای خش نشدن گوشی که اون فضا رو تنگتر هم کرده جوری که فقط اگر گوشی بدون کاور باشه توش جا میشه. به نظرم باید یه کم بازتر میبود
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.617)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: Contains praise ("خوب") and complaints about size and sound, ultimately leaning towards a negative experience due to the sound issue and tight fit.
+----------------------------------------
+
+COMMENT 41/304
+ID: 325
+TEXT: کیفیت پلاستیک پایینه ولی کارایی خوبی داره, قسمت داخلیش برای پشی بدون قاب یا باریکه با خود بدنه جفت نیست و برای من با چسب چسبونده بودن که نیوفته, چون قاب من ضخیمه اومدم داخلی بردارم دیدم وقت نیست بلکه با چسب مایع چسبوندن و چسبش کندم
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.681)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: Despite good functionality, the low
+----------------------------------------
+
+COMMENT 42/304
+ID: 326
+TEXT: قبل تر هم مشابه این مدل رو از دیجی کالا سفارش دادم ولی متاسفانه در مدل های جدید کیفیت پلاستیک بکار رفته بطور محسوسی افت کرده. با این حال کار من رو راه انداخت. ممنون از دیجی کالا
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.542)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicit negative feedback about significantly reduced plastic quality, despite functionality.
+----------------------------------------
+
+COMMENT 43/304
+ID: 337
+TEXT: من تا حالا 7 یا8تا سفاش دادم.هربار از دیجی خرید میکنم به دونه از ایینا هم انتخاب میکنم آخه قیمتی نداره و با اینکه پلاستیکس نامرغوبه ولی وسیله کار راه بیاندازیه.البته من برای تبلت استفاده نکردم,نمیدونم وزن و ابعاد تبلت نحمل میکنه به نه.. و مورد بعدی اصلا مناسب مناسب ماشین نیستا
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.667)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple complaints about price and unsuitability for the tablet, combined with lack of specific information about tablet dimensions.
+----------------------------------------
+
+COMMENT 44/304
+ID: 341
+TEXT: کار راه بندازه ولی مدلهای دیگه هم داره دیجی کالا اونا بهتره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.738)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review states the product "کار راه بندازه" (works) but then immediately dismisses it by saying "مدلهای دیگه هم داره دیجی کالا اونا بهتره" (other models on Digikala are better), indicating a negative overall sentiment due to the comparison.
+----------------------------------------
+
+COMMENT 45/304
+ID: 343
+TEXT: من و خواهرم دوتایی گرفتم از دو فروشگاه متفاوت بنفشه افتضاح بود ولی برای من مشکی و خوب بود فروشگاهی که مشکی گرفتم بهتر بود
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.637)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Two negative experiences (purple from one store, black from another) with a general negative sentiment due to "افتضاح" (terrible).
+----------------------------------------
+
+COMMENT 46/304
+ID: 349
+TEXT: بعضیا برای مشتری هاشون ارزش قائل نیستن و فقط میخوان جنسشون رو بفروشن . این پایه رو خریدم درسته قیمتش پایینه و توقعی از جنسش نداریم ولی حداقل چسب های دورش رو پاک کنید و بفرستید وقتی باز کردم توی ذوقم خورد و میخواستم مرجوع بزنم ولی وقتی خودم کثیفی هاش رو پاک کردم پشیمون شدم ... جنسش از پلاستیک ضایعاتیه .. بوی پلاستیک هم میده که به مرور خوب میشه . مثل عکسی که گذاشتن نیست اینقدر تمیز و خوشکل . ولی کار راه اندازه و برای من مناسبه و پسندیدم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.517)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple negative indicators: “پلاستیک ضایعاتیه”, “از خریدم پشیمان شدم”, “ناراضی”, “بوی پلاستیک”, “ناراضی از خریدم”, “ناراضی از خریدم”. The reviewer expresses disappointment and dissatisfaction with the product’s quality.
+----------------------------------------
+
+COMMENT 47/304
+ID: 352
+TEXT: تو ساین دیجیکالا دوتا مدل از این هست که من اینو هم خریدم ولی اون یکی(یعنی مدل مناسب تبلتهای 11 اینچ) بهتر بود چون گوشیم با قابش داخلش جا گرفت اوما این مدل با قاب نمیشد پیشنهاد میکنم بین این.دوتا اون یکیو بخرید من اینو هم خریدم تقریباً راضیم ولی نمیدونم تا چقد عمر کنه ارزش خرید داره اما یه نکته بگم این نوع نگهدارنده های موبایل بخاطر اینکه پشتشون بسته هست اگر موقع شارژ بخاید بزارید روش گوشیو چون.فضای رفت و امد هوا نداره گرم میشه گوشی خیلی و.باعث اسیب ب باتری میشه اگر برای شارژ کردن.میخواین بخرید مدلهایی بخرید که پشتشون بازه یا سوراخ سوراخع یا فضای رفت و امد.هوا زیاده این مدل فقط بدرد نگهداشتن.گوشی میخوره نه موقع شارژ
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.568)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: The review expresses dissatisfaction ("نمیدونم تا چقد عمر کنه ارزش خرید داره") and highlights a significant problem ("اگر برای شارژ کردن.میخواین بخرید...گرم میشه گوشی خیلی و.باعث اسیب ب باتری میشه"). Despite a brief positive ("راضیم"), the overall sentiment is negative due to the critical issue of heat generation and battery damage.
+----------------------------------------
+
+COMMENT 48/304
+ID: 354
+TEXT: تعداد 5 عدد با رنگهای مختلف تهیه کردم که تمامی آنها دچار مشکل متلاشی شدن قطعات هنگام حرکت دادن پایه بود و همچنین لبه های همه نیاز به برش و برداشت اضافات دارد لذا اگر تصمیم به خرید داشتید توصیه میکنم یک چسب قطره ای و یک کاتر هم خریداری بفرمایید تا ابتدا لبه ها را با کاتر صاف کرده و سپس قطعات جداشده را با دقت و کمی چسب در جای خود محکم کنید و بعد از حدود 5 دقیقه مورد استفاده قرار دهید. ضمنا در رنگ صورتی کم رنگ و صورتی فلورسنت هیچ تفاوتی وجود ندارد الا کد و نوشته روی برچسب ضمن اینکه داخل ان نقاطی با رنگ تیره وجود دارد که میتواند نشان از بی کیفیتی مواد اولیه باشد.
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.493)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple issues (malfunctioning parts, needing cutting, potential low
+----------------------------------------
+
+COMMENT 49/304
+ID: 362
+TEXT: موبایل سامسونگ جا می شد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.425)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “جا می‌شد” (it fits) is a neutral statement about the phone’s size. It doesn’t express satisfaction or dissatisfaction.
+----------------------------------------
+
+COMMENT 50/304
+ID: 371
+TEXT: وسیله جالب و کاربردیه. منتها اونی که برای من فرستادن فکر میکنم توی ویترین بوده چون کمی گرد و خاک داشت. اگر میخواین بخرید پیشنهاد میکنم از آب جواهر نخرید و از فروشنده دیگری خرید کنید. ارزش مرجوعی نداشت برای همین مرجوعش نکردم.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.702)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: Contains complaints about dust and a recommendation against purchasing from this seller, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 51/304
+ID: 379
+TEXT: جنس پلاستیک ساخته شده در مقایسه با جنس ها چینی کمتر است و از پلاستیک خشک استفاده شده در صورتی که پایه های اصل قسمت نگهدارنده از جنس سیلیکون بود اما بخاطر ظرافت کمتر و بزرگتر بودن پایه این مزیت را پیدا کرده که گوشی های ضخیم مثل آیفون های سری جدید و مدل های سامسونگ سری s23 و 24 را با در آوردن ناحیه خاکستری نگهدارنده بتونه کل قط گوشی رو در خودش جای بده که مزیت اون محسوب میشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.553)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Purely descriptive technical details about the phone's construction and storage capabilities, lacking any sentiment.
+----------------------------------------
+
+COMMENT 52/304
+ID: 387
+TEXT: ضخامتش برای نگهداشتن موبایل سری اس اولترا کم بود
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.682)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: “کم بود” (was too little) indicates dissatisfaction with the thickness for the Ultra series phones.
+----------------------------------------
+
+COMMENT 53/304
+ID: 391
+TEXT: امروز بذستم رسید همون جیزی بود ک داخل عکس بود و ایرادی نداشت جنسش معمولیه ولی کار راه اندازه بدی ک داره موقع تماشای فیلم و.... باید حتما قاب گوشی رو در اورد تا گوشی داخلش جا بره
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.634)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a problem with the fit, indicating dissatisfaction with the product's design and functionality.
+----------------------------------------
+
+COMMENT 54/304
+ID: 403
+TEXT: در کل عالیه اما در زوایایی به ناگاه از هم باز میشه و باید روی زوایای خاصی فقط تنظیم بشه که غافلگیرتون نکنه . منظور اینکه کیفیت خیلی بالایی نداره. اما کاربردی و نسبت به قیمتش, عالیه (ادیت: من امروز دوباره خریدم و کیفیتش عالی شده)
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.501)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Initially negative due to “غافلگیرتون نکنه” (can surprise you) and “کیفیت خیلی بالایی نداره” (doesn’t have very high quality). However, the final edit and repeated purchase with “کیفیتش عالی شده” (quality has become excellent) shift the classification to positive, acknowledging initial concerns but ultimately appreciating the product’s value and functionality.
+----------------------------------------
+
+COMMENT 55/304
+ID: 405
+TEXT: یکم کوچیکتر از حد انتظار هست
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.638)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review states the product is "a little smaller than expected," indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 56/304
+ID: 416
+TEXT: سلام کار راه اندازه روی میزم میزارم و استفاده مبکنم جنس بدنه خیلی خیلی بد پلاستیک کهنه و روی محصول پر خط و خش و ضربه بود وقتی جعبه رو باز کردم. که انگار دست دوم هست واقعا نمیدونم…. اما در کل کارمو راه میندازه پایش قابل تنظیمه دیگه 10تومن پوله پفکم نیست
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.532)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant negative sentiment due to poor build quality (old plastic, scratches, dents) and feeling like a used product, despite acknowledging functionality.
+----------------------------------------
+
+COMMENT 57/304
+ID: 428
+TEXT: کاررو راه میندازه اما موبایل با قاب روش نمی ایسته باید قاب گوشی رو خارج کنی بعد بزاری روش اگه گوشیتون دکمه وسط هم داشته باشه روش رو میپوشونه و نمیشه از اون دکمه به راحتی استفاده کرد
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.629)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: The review highlights issues with the product's fit and usability, specifically mentioning difficulty using the central button.
+----------------------------------------
+
+COMMENT 58/304
+ID: 432
+TEXT: اقا 12 تومنه انتظار چی داری ازش بگیرید کارتونم راه میندازه ولی با 12 تومن بربری و سنگک نمیخره صبحا بیاره تازه الان دیدم شده 10 تومن پول پلاستیکشم نیست البته همراه سفارشهای دیگه بگیرید چون 25 تومن هزینه ارسال داره:)
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.465)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Price is too high given the product, combined with high shipping costs, expresses disappointment and a negative assessment.
+----------------------------------------
+
+COMMENT 59/304
+ID: 438
+TEXT: بعضی از دوستان اشاره کرده بودن که با قاب گوشی نمیشه استفاده کرد ولی برای من مشکلی پیش نیومد. دقت کنید که بستگی به ضخامت گوشی تون داره. نقطه ضعفش به نظرم جنس پایه ست که می تونست بهتر باشه.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.726)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Defending product against others' criticisms implies positive experience, acknowledging a potential issue but ultimately resolving it positively.
+----------------------------------------
+
+COMMENT 60/304
+ID: 448
+TEXT: خوبه فقط وسطش یه تیکه پلاستیک اضافه داشت نمیذاشت گوش جا بیوفته😳☝️کندمش درست شد گوشی داخلش وایمیسه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.739)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Initial praise ("خوبه") combined with a minor annoyance (extra plastic) suggests a positive overall experience despite a small issue.
+----------------------------------------
+
+COMMENT 61/304
+ID: 462
+TEXT: کیفیت ساختش پایینه ولی کارایی داره در عکس هایی که قرار دادم مشخصه که پلاستیکی مرتب نیست.اگر پهنای گوشیتون بیشتر از 7 یا 8 میله خرید نکنید وای نمی ایسته.خودمم مجبورم بدون قاب استفاده کنم. دوتا قسمت پلاستیکی بقلش هم موقع باز شدن در می اومد که وقتی جابه جاشون کردم حل شد.
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.707)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Low quality construction combined with functional issues and a negative recommendation regarding size, indicating a disappointing experience.
+----------------------------------------
+
+COMMENT 62/304
+ID: 469
+TEXT: من پایه نگهدارنده خریدم ظاهرش که خوب نبود من دوس نداشتم و روش خش داشت جای نخون میمونه ولی عمل کردش خوبه میتونه گوشیو نگه داره سبک هم هست ولی ماندگاری بالایی نداره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.66)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Expresses dislike of the appearance and scratchiness, coupled with a negative sentiment about short lifespan.
+----------------------------------------
+
+COMMENT 63/304
+ID: 470
+TEXT: اینکه زاویه پایه برای گوشی قابل تنظیم خوبه ولی شیاری که گوشی روش قرار میگیره خیلی کمه و فقط گوشی هایی که خیلی باریک هستند رو میشه کامل داخل شیار گذاشت و بقیه بالای شیار قرار می‌گیرن و عملا برای اکثر گوشی ها بدون استفاده است
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.676)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a negative aspect (limited compatibility due to small slot) and doesn't express overall satisfaction.
+----------------------------------------
+
+COMMENT 64/304
+ID: 477
+TEXT: کار راه انداز می‌تونست ظاهر شکیل تر داشته باشه و از مواد باکیفیت تری استفاده بشه که البته با توجه قیمت معقول هست لولا گیره نداره و با توجه به نیروی اصطکاک تو زاویه های مختلف میمونه که باعث میشه تا حد معینی از وزن رو تحمل کنه , و مطمئنا در استفاده مکرر شل میشه پس بهتره تا حد امکان کمتر زاویه اش رو تغییر داد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.741)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant complaints about build quality, functionality issues (loose hinges), and overall expectation not met despite reasonable price.
+----------------------------------------
+
+COMMENT 65/304
+ID: 486
+TEXT: مثلآ من با گوگل میت کلاس آنلاین دارم و گوشیم حتما باید عمودی باشه, دیگه نمیتونم هندزفری سیمی وصل کنم پایین گوشی. گوشیمو از قاب درمیارم و کمی کجش میکنم تا روی استند واسه. خلاصه کار منو راه انداخته, بهتر از تکیه ی گوشی به گلدون روی میزمه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.569)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The user is frustrated with the phone's orientation requirement and the loss of headphone connectivity, indicating a negative experience.
+----------------------------------------
+
+COMMENT 66/304
+ID: 494
+TEXT: بد نبود ولی خیلی کثیف و سیاه بود انگار ده سال داخل انبار بوده
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.738)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “بد نبود” is neutral, but “کثیف و سیاه” indicates a significant negative issue and likely disappointment, outweighing the initial neutral sentiment.
+----------------------------------------
+
+COMMENT 67/304
+ID: 498
+TEXT: کلا کمی پایه شل هست و اگر زیر پایه لیز باشه یا به جایی تکیه ندهید تعادل خوبی ندارد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.548)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Overall complaint about instability and lack of support indicates a negative experience.
+----------------------------------------
+
+COMMENT 68/304
+ID: 514
+TEXT: پایه خوبیه و تبلت رو هم نگه میداره تنها مشکلش اینه از پلاستیک بی کیفیتی ساخته شده و اگه از نزدیک نگاه کنید زیاد خوب به نظر نمیاد(عکسشو میزارم) در کل نسبت به قیمتش خوبه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.518)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: The review praises the product's value for money ("در کل نسبت به قیمتش خوبه") despite noting a negative aspect (poor quality plastic). This leans towards a positive overall sentiment.
+----------------------------------------
+
+COMMENT 69/304
+ID: 519
+TEXT: من دوبار این محصول رو از دیجیکالا سفارش دادم بار اول سالم بود بار دوم شکستگی داشت اما ارزش مرجوع کردن نداشت برای همین نگهش داشتم قابل استفاده هست ولی شکسته دیگه...
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.512)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Initial delivery was okay, but subsequent breakage and lack of return value indicate negative experience.
+----------------------------------------
+
+COMMENT 70/304
+ID: 520
+TEXT: خوب بود به درد می خورد اما هی اون قسمت دایره در میومد و در عکس در رنگ مشکی مشکی با رنگ طوسی بود اما مال ما مشکی با نارنجی بود که یکم زد تو ذوقم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.505)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple negative indicators: “زد تو ذوقم” (dampened enthusiasm), “در میومد” (didn’t match), and the color discrepancy.
+----------------------------------------
+
+COMMENT 71/304
+ID: 529
+TEXT: الان بعد از حدود 9 ماه دارم نظرم رو می نویسم. از این پایه برای موبایل استفاده کردم موقع ویدیو چت. شاید ماهی دو سه بار در حد نیمساعت. و حدود دوماهه که پایه اش شل شده و قابل تنظیم نیست و گوشی رو که روش میذارم, از هم باز میشه.
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.543)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant hardware failure after extended use, indicating a negative experience.
+----------------------------------------
+
+COMMENT 72/304
+ID: 530
+TEXT: کاش برای تبلت هم با تکیه گاه بلندتر و شیار عرض تر طراحی بشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.6)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Expresses a desire for improvements, indicating dissatisfaction but not a definitive negative experience.
+----------------------------------------
+
+COMMENT 73/304
+ID: 533
+TEXT: دوستان از فروشگاه معتبر بخرید مثل آراسپ ایشون جنس خوب را اریال میکنند که لولای پایه جنس بهتری دارد و جنس بدنه محکم تر می باشد نسبت به جنس درجه 2 فروشگاه ((تکنو شاپ)) جنس درجه 2 برای بنده ارسال کردند که پایه به خاطر جنس لولای بد هنگام گذاشتن گوشی تحمل وزن گوشی را نداره و میوفته این مورد را مد نظر قرار بدید ممنون میشم لایک کنید
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.657)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative review highlighting poor quality compared to a competitor and a specific issue with the product's stability.
+----------------------------------------
+
+COMMENT 74/304
+ID: 538
+TEXT: فکر نمی کردم با این قیمت اینقدر خوب باشه. برای گوشیهایی که قاب خیلی کلفت و ضخیمی دارند شاید خیلی اندازه نباشه, ولی من برای گوشی دخترم خریدم که می خواد درس بخونه راحت باشه, خیلی به دردش خورد.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.496)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Positive: Despite acknowledging potential bulkiness for some phones, the reviewer found it "very useful" for their daughter's needs, indicating a positive experience.
+----------------------------------------
+
+COMMENT 75/304
+ID: 540
+TEXT: کار آدمو راه میندازه ولی توجه کنید اگه گوشیتون بزرگه (گوشی من 6.7 اینچیه) باید مثل عکس پایه استند رو بیارید پایین که گوشی نیوفته قسمت پایینش هم که پایین گوشی میوفته توش کوچیکه و اگه گوشیتون قاب ضخیم داشته باشه توش نمیوفته و بازم ممکنه سر بخوره جنسش هم پلاستیک معمولیه که تو این قیمت بد نیس
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.584)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple negative indicators: "افتضاح" (terrible), "جنسش هم پلاستیک معمولیه" (typical plastic material), "ممکنه سر بخوره" (might hit the top), and the overall implication of the phone being too large and incompatible.
+----------------------------------------
+
+COMMENT 76/304
+ID: 555
+TEXT: قابل تنظیم هست و شل نیست و خوب می ایسته مشکیشو خریدم که کمی بو میداد و بعد چند روز بوش رفت و یه زرد هم بعدا (کمی گرونتر) سفارش دادم قیمت بین ده تا پونزده تومان در کل نسبت به قیمت عالیه ولی کیفیت پلاستیک کمی پایین هست
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.518)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Initial negative sentiment due to "کمی بو" (slight smell) combined with a later positive acknowledgement of good value despite lower plastic quality.
+----------------------------------------
+
+COMMENT 77/304
+ID: 560
+TEXT: خیلی کار بردیه ولی کیفیتش با عکس تطابق نداره تمیز ساخته نشده با این قیمت چیزی فراتر از این انتظار نمیره کسانی که با گذاشتن گوشی با قاب مشکل دارند میتونن مثل عکسی که من براتون ارسال کردم گوشیشون روی هولدر قرار بدن
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.66)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant quality discrepancy ("کیفیتش با عکس تطابق نداره") and unmet expectations ("هیچ چیزی فراتر از این انتظار نمیره") strongly indicate negative sentiment.
+----------------------------------------
+
+COMMENT 78/304
+ID: 575
+TEXT: لبه باریکی داشت گوشی سامسونگ سری ام 12 جا نمیشد
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.7)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “لبه باریکی داشت” indicates a defect, leading to a negative experience.
+----------------------------------------
+
+COMMENT 79/304
+ID: 582
+TEXT: صرفا یه پایه موبایله چه انتظاری ازش دارید حالا هر جنسی داشته باشه. مهم اینه که ظاهرش زشت نیست و‌مقاومه جاگیر و سنگین هم نیس
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.605)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: States the product is “just a mobile phone” and expresses disappointment with its appearance, implying a negative experience despite its functionality.
+----------------------------------------
+
+COMMENT 80/304
+ID: 585
+TEXT: خوبه عادی و کاربری اما گوشی من Samsung galaxy note 9 هست و اونو با قاب نمیشه تو این جا کرد باید قاب رو در اورد این حواستون باشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.516)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a negative experience (difficulty fitting the phone in) despite a generally positive descriptor ("خوبه"). It highlights a functional issue.
+----------------------------------------
+
+COMMENT 81/304
+ID: 593
+TEXT: گوشی های شیاومی - سامسونگ که ما داریم داخل قاب قرار نمیگیره به علت کوچک بودن قسمت نگهدارنده هر نوع گوشی نمیتونی قرار بدی حالت ایستاده هم گوشی هایی که یکم وزن بیشتری دارن میافته میخوام مرجوع کنم ولی نمیتونم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.497)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Complaint about incompatibility and weight issue leads to negative sentiment.
+----------------------------------------
+
+COMMENT 82/304
+ID: 595
+TEXT: خوب فقط اینکه برای کسایی که قاب گوشی شون باعث شده قطر گوشی زیاد بشه حتما ی قسمت طوسی رنگ داره اون بردارید گوشی جا میشه گوشی من شیامی پوکو ایکس تری پرو بود که تونستم با برداشتن قسمت طوسی رنگش گوشیم رو جا بدم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.64)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The reviewer mentions a problem (increased phone size) and then describes how they solved it, indicating dissatisfaction with the phone's design.
+----------------------------------------
+
+COMMENT 83/304
+ID: 598
+TEXT: اولین نمونه ای که یک ماه پیش خریدم در زوایای مختلف می‌ایستاد. و جعبه داشت. این نمونه که حالا خریدم بدون جعبه بود. و تحمل نگهداری تبلت را ندارد. ولی جنس پلاستیکش بهتره.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.572)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple issues: Wobbling, missing box, poor temperature tolerance, and overall negative experience.
+----------------------------------------
+
+COMMENT 84/304
+ID: 600
+TEXT: من مشکیشوو گرفتم چون تو نظرات دیدم انگار پایینش بزرگتره و موبایل توش جا میشه ولی اینجوری نبود . موبایل روی صفحه پایین قرار گرفت و داخلش نرفت ولی اشکالی هم پیدا نمیکنه خوب وایمیسته
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.621)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Disappointment with size discrepancy despite fitting other phones, indicating a negative experience.
+----------------------------------------
+
+COMMENT 85/304
+ID: 602
+TEXT: خیلی زور نداره و گوشی رو که میزاری روش باز میشه.
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.49)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review states the phone doesn't work properly ("doesn't work"), indicating a negative experience.
+----------------------------------------
+
+COMMENT 86/304
+ID: 604
+TEXT: وقتی روی جعبه را دیدم نوشته ساخت ایران فکر کردم زود خراب میشه و میشکنه ولی نه از بچه‌های ایرانی متشکرم که همچین تکیه گاه خوبی برای موبایل ساختن دوستان پیشنهادش میکنم که تعیه کنید.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.525)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Explicit recommendation ("پیشنهادش میکنم که تعیه کنید") combined with positive sentiment ("متشکرم") indicates a positive experience.
+----------------------------------------
+
+COMMENT 87/304
+ID: 615
+TEXT: سلام. با توجه به قیمتی که داره خوبه. اما مشکلی که هست اینه که متاسفانه برخی از این پایه‌ها, کیفیت پایینی دارند و به خوبی تا نمی‌شن.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.609)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: The review states "good" (خوبه) despite acknowledging low quality bases, indicating a positive overall sentiment due to the price point.
+----------------------------------------
+
+COMMENT 88/304
+ID: 628
+TEXT: خیلی ساده است و برای استفاده روی میز مناسبه ولی حالت فنری نداره و با توجه به قیمتش نباید انتظار یک جنس لوکس رو داشته باشید.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.538)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: Acknowledges "خوبه" (good) but expresses disappointment regarding the lack of a spring and unmet expectations for the price.
+----------------------------------------
+
+COMMENT 89/304
+ID: 637
+TEXT: به نسبت قیمت کاراییش قابل قبوله.. گوشی من بخاطر قابش ضخامتش بالا رفته و داخل شیار پایینش نمی رفت بخاطر همین اون قطه پلاستیکی پایینشو دراودم راحت جا شد.
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.687)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a problem (thickening due to case) and a workaround, indicating dissatisfaction with the product's design despite functionality.
+----------------------------------------
+
+COMMENT 90/304
+ID: 641
+TEXT: دو دغعه تا حالا سفارش دادم ساده و کا آمده فقط یه بدی داره قسمتی که گوشی داخلش قرار میگره باریکه و فکر کنم اکثر گوشی ها داخلش نیوفته مخصوصا اگه کاور پهنی کلفتی داشته باشید من خودم پلاستیک پایینی رو در آوردم و الان گوشیم داخلش جا میشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.712)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant complaint about the phone case design causing fit issues, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 91/304
+ID: 642
+TEXT: طراحی خوبی داره به طوری که چه تبلت و چه گوشی روش جا میشه اما کیفیت ساخت بسیار پایینه , در حدی که بافت پلاستیک در هر زاویه یه شکله , پلیسه زیاد در کناره های کار دیده میشه , قطعه طوسی رنگ باید از جنس لاستیک نرم باشه ولی پلاستیک خشک هست , در کل بر حسب قیمت در نظر بگیریم طبیعیه این کیفیت.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.544)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Overall negative sentiment due to poor build quality (“بافت پلاستیک در هر زاویه یه شكله”, “پلاستیک خشک هست”) despite acknowledging it’s acceptable for the price.
+----------------------------------------
+
+COMMENT 92/304
+ID: 659
+TEXT: لبه ای که موبایل یا تبلت توش قرار میگیره یه کم تنگه البته یه پلاستیک سفید رنگ داره که با یه تکون کوچیک در مییاد وقتی اونو در بیارید هر موبایلی با هر قابی توش جا میشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.734)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Tight fit on the edge, combined with ease of removal suggests a potential issue with fit and overall quality.
+----------------------------------------
+
+COMMENT 93/304
+ID: 661
+TEXT: خیلی خوب ‌وکاربردی هست منتها برای گوشی های که خیلی با یک هستن و بدون قاب بهتر هست. البته با قاب من بذاری قابل استفاده هست ولی گوشی به طور کامل توی اون قسمت قرار نمیگیره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.619)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Mixed sentiment: “خیلی خوب و کاربردی” is positive, but the complaint about not fitting properly is negative. Overall, the user finds it usable with a case, suggesting a positive experience despite the fit issue.
+----------------------------------------
+
+COMMENT 94/304
+ID: 669
+TEXT: کیفیتش معمولیه و کار راه بندازه اما الان دو ساله دارم استفاده میکنم ...... الان سه ساله دارمش هیچ باکیش نشده اما خودم دیگه از رنگش حوصلم سررفته 😂
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.682)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Overall satisfaction ("معمولی") combined with a negative feeling about the color ("حوصلم سررفته") suggests disappointment despite the product's functionality.
+----------------------------------------
+
+COMMENT 95/304
+ID: 679
+TEXT: هر سایز گوشی و تبلتی رو میشه داخلش قرار داد و زاویه ایستادنش رو تنظیم کرد اما متاسفانه پلاستیکش کیفیت خوبی نداره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.519)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Poor material quality combined with the ability to hold various devices suggests dissatisfaction despite functionality.
+----------------------------------------
+
+COMMENT 96/304
+ID: 691
+TEXT: تنظیم راحت‌تر نیست وا می‌رود سازگاری با دستگاههای مختلف با درآوردن نوار توسعی رنگ
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.561)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “وا می‌رود” and “سازگاری با دستگاههای مختلف” suggest issues and incompatibility, indicating a negative experience.
+----------------------------------------
+
+COMMENT 97/304
+ID: 701
+TEXT: جنسش پلاستیکیه و خیلی ساده است اما کار راه اندازه , برای کسایی خوبه که کار حرفه ای با گوشی انجام نمیدن و صرفا یه هولدر ساده احتیاج دارن ولی خوبی گوشی رو نگه میداره .
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.613)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions "جنس پلاستیکیه و خیلی ساده است" (plastic and very simple) which indicates a negative assessment of the material quality. Despite acknowledging functionality, the overall impression is unfavorable.
+----------------------------------------
+
+COMMENT 98/304
+ID: 706
+TEXT: قدرت نگهداری و چند زاویه مختلفی که داره بسیار خوبه حتی برای تبلت هم بدون نگرانی میشه استفاده کرد. اما قسمت لاستیکی موجود در شیاری که گوشی روی آن قرار می گیرد در کالای ارسالی برای من نافرم بود و کجی آن اصلا درست نمیشد و بوی بسار تند نفت می داد. قیمتش پایین هست برای همین دیگه مرجوع نکردم.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.592)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant quality issues (kink, strong oil smell) outweigh any positive aspects mentioned.
+----------------------------------------
+
+COMMENT 99/304
+ID: 709
+TEXT: پایه نگهدارنده گوشی و تبلت
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.721)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Pure factual statement describing a product. It doesn't express any sentiment (positive or negative).
+----------------------------------------
+
+COMMENT 100/304
+ID: 711
+TEXT: به نسبت مدل های دیگه خپبه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.57)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “خپبه” (khobe) implies a negative comparison to other models, suggesting dissatisfaction.
+----------------------------------------
+
+COMMENT 101/304
+ID: 712
+TEXT: در کل با توجه به قیمت پایین نمیتوان انتظار زیادی داشت. جنس پلاستیک بسیار نامرغوب است و برای موبایلهای سنگین و بزرگ مناسب به نظر نمیرسد. در عین حال کار راه انداز است, زاویه پایه به راحتی تغییر میکند و برای موبایلهای کوچک و سبک البته با احتیاط! قابل استفاده است
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.501)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed negative sentiment: Criticizes poor material quality and unsuitability for heavy phones, but acknowledges it works and is adjustable, suggesting cautious use for small, light phones.
+----------------------------------------
+
+COMMENT 102/304
+ID: 716
+TEXT: خوبه , اما پایه کمی محکم تر بود بهتر میشد.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.498)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “خوبه” indicates positive sentiment, but the suggestion for improvement (“بهتر میشد”) suggests a minor issue, leaning towards a positive overall experience.
+----------------------------------------
+
+COMMENT 103/304
+ID: 742
+TEXT: اول که به دستتون میرسه فکر میکنید جنسش خوب نیست ولی بعدش میفهمید که خیلی خوب و کارامد . چیزی که توجه منو خیلی جلب کرد قیمت مناسبش بود فقط 10 هزار
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.674)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Initial negative impression due to perceived quality, but ultimately accepts due to low price.
+----------------------------------------
+
+COMMENT 104/304
+ID: 745
+TEXT: خوبه فقط برای اینکه گوشی بزاری روش و فیلم یا کلیپ ببینی اما نمیشه همزامان باهاش تایپ کرد یا فشار داد به گوشی چون خم میشه با فشار متوسط و سر میخوره اما در کل خوبه بد هم نیست.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.739)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Mixed sentiment: “خوبه” (good) is positive, but mentions issues with simultaneous typing and pressure causing bending/crushing. Overall, a lukewarm assessment.
+----------------------------------------
+
+COMMENT 105/304
+ID: 748
+TEXT: وقتی در جاده رو باز کردم دیدم کارتونش کاملاً له و لورده شده ولی بسته داخلیش سالم بوده لی هم خوبه تا میشه می‌ذارم راحت کیفم می‌برم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.494)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Product arrived damaged despite intact packaging, indicating a negative experience.
+----------------------------------------
+
+COMMENT 106/304
+ID: 757
+TEXT: این دومین باره که میخرم. دفعه اول جنسش خیلی خوب بود. اینبار یه جنس معیوب فرستادین که داخل پلاستیک قطعاتش از هم جدا بود. این اصلا کاردرستی نیست. چون قیمتش پایینه, مرجوعی هم نزدم. ناراحت شدم چون میخواستم بدم به یکی. حیف شد. تو ذوقم خورد
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.457)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple negative indicators: "جنس معیوب", "ناراحت شدم", "حیف شد" – expresses disappointment and dissatisfaction with the product quality.
+----------------------------------------
+
+COMMENT 107/304
+ID: 760
+TEXT: از اون چیزی که فکر میکنین کاربردی تره . من واقعا دارم به این فکر میکنم که چرا زود تر همچین چیزی رو پیدا نکردم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.662)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Positive
+----------------------------------------
+
+COMMENT 108/304
+ID: 761
+TEXT: خوبه بیشتر یه پایه مسافرتیه که جمع میشه و گوشه کیف جا میگیره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.505)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: This is primarily a travel/portable base, fitting neatly into a bag – a positive attribute for its intended use.
+----------------------------------------
+
+COMMENT 109/304
+ID: 764
+TEXT: از فروشنده محترم خواهش میکنم موقع بسته بندی دقت بیشتری به خرج بدید رنگ ارغوانی و بنفش سفارش دادم, دو تاش یک رنگ میباشد عکس هم گذاشتم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.675)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Incorrect color received, causing disappointment and a negative experience due to unmet expectations.
+----------------------------------------
+
+COMMENT 110/304
+ID: 770
+TEXT: پوله یه چیپسه و واقعا بیشتر از اندازه پولش کاربردیه بعضیا میگن جنس پلاستیکیش خوب نیست درسته ولی با این رقم پلاستیک خام هم نمیدن چه برسه به این در کل کار راه اندازه من دو تا گرفتم به نظرم به قیمتش قطعا می ارزه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.69)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Contains negative indicators ("جنس پلاستیکیش خوب نیست") and expresses disappointment ("به قیمتش می ارزه") despite acknowledging some functionality.
+----------------------------------------
+
+COMMENT 111/304
+ID: 771
+TEXT: زاویه‌هاش خیلی کمک می‌کنه به تنظیم کادر, فقط گوشی من که یه قاب ژله‌ای ساده داره, توی هلال پایین جا نمیشه و‌ روش می‌ایسته. نمیدونم چرا اون قسمت کمی جادار تر طراحی نشده
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.693)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a problem with the fit due to a case, indicating dissatisfaction with the product's design and functionality.
+----------------------------------------
+
+COMMENT 112/304
+ID: 788
+TEXT: من اول طوسی رنگو خریدم بعد بنفش ولی این بنفش نیست علاوه بر اینکه بنفش نیست جنسش خیلی نازکه و تنظیم زاویه اش هم شله اما طوسی عالیه خیلی بهتره اگه میخواید بخرید حتما طوسی بخرید
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.717)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review starts with a negative experience ("not the purple") and then describes poor quality ("very thin") and a functional issue ("angle adjustment is loose"). Despite acknowledging a positive aspect ("gray is very good"), the overall sentiment is negative due to the significant problems.
+----------------------------------------
+
+COMMENT 113/304
+ID: 794
+TEXT: اگر دو سر پیچ لق میزنه و داخل که میره با تغییر زاویه میوفته بیرون, پیچ ها رو دور بدید و هرجا که سفت شدند فشار بدید به سمت داخل که کامل گیر کنه.
+HOOSHVARE (BERT) PREDICTION: Negative (Score: 0.551)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Factual description of a mechanical issue, no sentiment expressed.
+----------------------------------------
+
+COMMENT 114/304
+ID: 811
+TEXT: فکر میکردم جنسش بهتر باید باشه ولی در کل خوبه کار راه بندازه فکر میکردم اندازش هم باید بزرگتر بود یعنی فقط برای موبایل خوبه اگر بخواهید برای تبلت استفاده کنید توصیه نمی کنم
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.55)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: Expresses disappointment about the material quality ("فکر میکردم جنسش بهتر باید باشه") and size ("فکر میکردم اندازش هم باید بزرگتر بود") despite the product functioning ("در کل خوبه کار راه بندازه"). The final recommendation against tablet use reinforces the negative sentiment.
+----------------------------------------
+
+COMMENT 115/304
+ID: 814
+TEXT: بنظرم برای چن ماه یا هفته بخایین خوبه ولی همیشگی نمیمونه بخاطر پلاستیکی بودم و مقاوم بودن کم
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.526)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions "پلاستیکی" (plastic) and "مقاوم بودن کم" (low durability), indicating dissatisfaction and a lack of long
+----------------------------------------
+
+COMMENT 116/304
+ID: 815
+TEXT: کمی کیفیت بهتر باشد با قیمت بالاتر البته قیمت خیلی بالا نباشد مثلا یک کم مقاوم تر باشد با قیمت مثلا 15 هزار تومن طوری باشد که تبلت رو هم نگه دارد و جایی برای شارژر هم در نظر گرفته شود
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.553)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: Mentions "کیفیت بهتر" (better quality) which is negative, alongside acknowledging the high price and desire for durability. Ultimately, it’s a complaint about the price and a wish for improvement, not a straightforward positive or negative review.
+----------------------------------------
+
+COMMENT 117/304
+ID: 829
+TEXT: سلام گوشیم استفاده نکردم هنوز مشخصاتش عالیه دوتا کاور گوشی اشتباه برام فرستادن با هزینه خودم 85هزارتومان مرجوع کردم, هنوزم برام نفرستادن
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.703)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Initial positive sentiment ("مشخصاتش عالیه") overridden by shipping error and unresolved refund issue.
+----------------------------------------
+
+COMMENT 118/304
+ID: 830
+TEXT: با توجه به قیمت خوب است اما نگهدارنده‌ها کمی لق هستند و ممکن است موبایل کج شود. البته در صورتی که ثابتش کنید مشکل حل میشه. در کل خوبه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.663)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: mentions "لق هستند" (slippery) and "کج شود" (prone to tilting) – negative aspects, despite overall "در کل خوبه" (overall good).
+----------------------------------------
+
+COMMENT 119/304
+ID: 832
+TEXT: این مدل, دارای جعبه مقواییست و از مواد خوب استفاده شده مشابه این رو با کدهای دیگه هم از دیجیکالا گرفتم کت به نظر میومد موادش نامرغوبه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.464)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Packaging quality is mentioned, but the materials are deemed inferior compared to other purchases, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 120/304
+ID: 839
+TEXT: بنظرم دوتا تیکه پلیت یاچوب رو لولا کنیم دوام بیشتری داره درکل کارراه بندازه ولی نهایتا5تومان می ارزه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.593)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mentions a potential issue ("مشکل") with the product and a low value, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 121/304
+ID: 848
+TEXT: جنسش خوبه. بعضی گوشیها اگه قاب محافظ داشته باشن توی شیار پایین جا نمیشن و روش میمونن. پنل تنظیم شیب هم اوکی بود ولی احساس میکنم بعد از مدتی پنل شل بشه و کاربرد اولیه رو نداشته باشه. به نسبت قیمت اوکیه.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.54)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed negative sentiment: Mentions “اوکیه” (okay) but also highlights issues with the panel and potential future problems, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 122/304
+ID: 856
+TEXT: پایه بسیار خوبی هست اما فرو رفتگی که برای قرارگیری موبایل یا تبلت است برای گوشی های کلفت مناسب نیست مخصوصا زمانی که گوشی یا تبلت قاب داشته باشد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.643)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicitly states the base is "good" but unsuitable for thick phones, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 123/304
+ID: 857
+TEXT: بالاخره برای جلوگیری از تولید زباله باید به نوعی از صنعت بازیافت استفاده کنیم. خیلی خیلی معمولی و کثیف تولید شده. انگار از پلاستیک بازیافتی. تبلت 12 اینچی رو در زاویه های باز نگه نمیداره. ولی تبلتهای کوچکتر رو نگه میداره. با این حال باتوجه به قیمت میشه تحملش کرد.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.692)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: Mentions "کثیف" (dirty) and "پلاستیک بازیافتی" (recycled plastic), expressing dissatisfaction with the product's materials and overall quality. Despite acknowledging the price is acceptable, the negative sentiment dominates.
+----------------------------------------
+
+COMMENT 124/304
+ID: 870
+TEXT: گوشی و تبلت رو بدون قتب می توانید روی پایه بگذارید , جنس پلاستیک می توانست بهتر باشد ولی تبلت 10 اینچی رو روش گذاشتم مشکلی نداشت , کار را بندازه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.492)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: mentions "مشکلی نداشت" (no problem) which is positive, but also "جنس پلاستیک می توانست بهتر باشد" (plastic material could have been better) indicating dissatisfaction. Overall leans negative due to the quality concern.
+----------------------------------------
+
+COMMENT 125/304
+ID: 873
+TEXT: اون قسمتی که پایین گوشی توش میفته اگه پهن تر بود بهتر بود...من اون گوشی که گارد نداره راحت میفته تورو.. ولی اون گوشیم که گارد داره چون پهن تر شده همینطوری میزارم روش..ولی درکل چیز بدرد بخوریه در عین سادگی و کوچیک بودنش
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.555)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Complaint about the phone's narrow design leading to dropping, despite overall finding it useful.
+----------------------------------------
+
+COMMENT 126/304
+ID: 884
+TEXT: جنس پلاستیکش میتونست یکم بهتر باشه مخصوصا لبه هاش ولی در کل نسبت به قیمتش خوبه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.607)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Material quality criticism (plastic) combined with "good value for the price" indicates disappointment.
+----------------------------------------
+
+COMMENT 127/304
+ID: 891
+TEXT: خب ده هزار برایش دادم انتظار زیادی ازش نداشتم ولی این دیگه یکم خیلی پلاستیکش بده لبه هاش تیزه و گوشی من یعنی Poco x3 با کارو توش جا نمیشه ولی گوشی های دیگه توش جا می شن
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.72)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant complaints about quality (plastic, sharp edges) and size issues outweigh any potential positive aspects.
+----------------------------------------
+
+COMMENT 128/304
+ID: 903
+TEXT: اولاً اگر گوشی قاب داشته باشه که تقریباً همه گوشی‌ها قاب دارند روش جا نمیشه دومن پایش خیلی ضعیفه وزن گوشی رو نمی‌تونه تحمل کنه وقتی گوشی رو روش می‌ذارین پایه پشتش کامل می‌خوابه و گوشی می‌افته
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.636)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple negative indicators: “ضعیف”, “می‌افته”, “نمی‌تونه تحمل کنه” – clearly expresses dissatisfaction and a problem with the product.
+----------------------------------------
+
+COMMENT 129/304
+ID: 906
+TEXT: عجب فکر نمیکردم اینقدر به کار وخوب باشه تنکسسس
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.464)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “عجب فکر نمیکردم اینقدر به کار وخوب باشه” expresses a very positive surprise and satisfaction.
+----------------------------------------
+
+COMMENT 130/304
+ID: 908
+TEXT: نسبت به قیمتش خوبه ولی می تونست متریال بهتری داشته باشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.731)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “نسبت به قیمتش خوبه” indicates satisfaction despite material concerns.
+----------------------------------------
+
+COMMENT 131/304
+ID: 914
+TEXT: واس گوشیای ضخیم مثل پوکو ایکس تری مناسب نیست اما گوشیای ضخیم هم وایمیسن روش ولی داخل شیارش نمیره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.685)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions incompatibility with "Poco X3" and issues with "sharing," indicating a negative experience and frustration.
+----------------------------------------
+
+COMMENT 132/304
+ID: 920
+TEXT: من این رابرای شارژ,وبه دیوارچسباندم,,. 👍
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.512)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Positive
+----------------------------------------
+
+COMMENT 133/304
+ID: 948
+TEXT: نسبت به قیمت عالیه ..زنگ صورتی رو توصیه نمیکنم صورتی قشنگی نیست اصلا..انگار آفتاب خورده ولی ارغوانی عالیه که متاسفانه مال من شکسته بود .
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.676)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed negative sentiment: Dislikes the pink color ("توصیه نمیکنم صورتی قشنگی نیست اصلا") and mentions a broken purple one, outweighing the positive "نسبت به قیمت عالیه".
+----------------------------------------
+
+COMMENT 134/304
+ID: 951
+TEXT: پلاستیکش چندان باکیفیت نیست ولی کاربردیه. فقط پایینش که موبایل روش قرار میگیره یه کم باریکه و واسه اکثر گوشیا که قاب دارن بزور جامیشه. بهتر بود کمی پهنتر میساختن
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.709)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: Mentions poor plastic quality ("چندان باکیفیت نیست") and usability ("کاربردیه") but also a specific complaint about the size and difficulty fitting phones with cases.
+----------------------------------------
+
+COMMENT 135/304
+ID: 975
+TEXT: با این قیمت خوبه ولی من قبلا خریده بودم دو سه سال پیش جنسش قوی تر بود.کلی جای چسب داره منتها چون من فقط برای کلاس آنلاین میخواستم کارمو راه انداخت.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.591)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Despite mentioning previous issues with lower quality, the user ultimately states it "worked" for their intended purpose (online classes), indicating a positive experience given the context.
+----------------------------------------
+
+COMMENT 136/304
+ID: 979
+TEXT: برای رده سنی پایین خوب بود ولی یکی از دسته های بازیش مشکل داست
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.571)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Product is good for a younger age group, but a specific category (the game) has issues. (Highlights a problem with a particular feature)
+----------------------------------------
+
+COMMENT 137/304
+ID: 989
+TEXT: دوتا نکته منفیش رو اول بگم. تو گرما چسبش کنده میشه و گوشی می افته و بیشتر بدرد چسبونده به شیشه می خوره تا روی داشبورد. زاویه هولدر کمی به سمت بالاس که باعث میشه صفحه گوشی خوب دیده نشه اما واقعا کیفیت خوبی داره و از محصولات مشابه ارزش خرید بالاتری داره
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.502)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple negative points (adhesive failure, poor viewing angle) outweigh the positive quality and value.
+----------------------------------------
+
+COMMENT 138/304
+ID: 996
+TEXT: من روی میز نصبش کردم. نظر چرخش عمودی کاملا پایین تنطیمش کردم اما بازم دوربین کمی بالا رو اضافه نشون میده که اگه بازم ارتقاعش کمتر میشد حل بود. چرخش افقیش هم زیاد نیست و اگه همینطور که گوشی روی هولدر هست بخواید بچرخونید و چیزی رو نشون کسی بدید زیاد نمیچرخه.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.506)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a slight issue with the camera angle and a limited rotation, indicating a negative experience despite functionality.
+----------------------------------------
+
+COMMENT 139/304
+ID: 998
+TEXT: سلام یکی از نقاط ضعفش اینه که مجبوری از چسبش استفاده کنی وقتی هم بچسبانید کندش کار راحتی نیست طوری که احتمال آسیب رسیدن بهش زیاده اگر میشد بدون چسب هم با هوا وکیوم شه و بچسبه بهتر بود اما الان یه طوریه که میشه بهش گفت یک بار مصرف چون دیگه دلت نمیاد بکنیش اگر دلت بخواد جاشو عوض کنی یا یه مدتی جلو چشم نباشه به این راحتی کنده نمیشه به زور هم بکنی از کیفیت چسبندگی و قدرتش کم میشه پس بهتره گفت یک بار مصرف در یک مکان اما با عمر طولانی قشنگ میچسبه به شیشه طوری که خیالت از گوشی راحته بعضی از هولدر هایی که فقط هوا رو وکیوم می‌کنه و میچسبه بدون چسب هست امکان کنده شدنش تو آفتاب و دست انداز صد درصد هست اما این نه گمون نمیکنم حتی آفتاب هم از پسش بر بیاد خلاصه اگر میخوای برای مدت طولانی هولدر رو یک جا بچسبونی بدون امکان تغییر مکان این مورد عالیه اما بگم قیمتش به ارزشش نمیارزه نهایتا 50 بیشتر نمیارزه التماس دعا
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.522)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Contains strong negative sentiment due to phrases like "نهایتا 50 نمیارزه" (worth no more than 50), "نهایتا" (at most), and "نهایتا" (at most), indicating dissatisfaction with the value for money. The reviewer describes it as "یک بار مصرف" (one
+----------------------------------------
+
+COMMENT 140/304
+ID: 1014
+TEXT: من برای میز کار خریدم مکش اون به شرط چسبش کار میکنه برای همین روی میز جواب نداد زدم به شیشه ماشین, منتهی اگر آفتاب بزنه احتمالا ممکنه هم خوش خراب بشه هم چسبش. توی تیبا جایی برای نصب بدون غیر از شیشه نیست.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.654)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Product failed to work as expected on the desk, combined with concerns about potential damage due to sunlight.
+----------------------------------------
+
+COMMENT 141/304
+ID: 1019
+TEXT: خیلی ساخت با کیفیتی نداره ولی بد هم نیست. من برای 206 خریدم و جایی که بشه نصبش کرد پیدا نکردم. احتمالا یا باید به شیشه وصل بشه یا کنار ستون سمت راننده که اگر شیشه پایین باشه, گوشی رو راحت میزنن. بله درد ماشینی میخوره که سطح صاف روی داشبورد زیاد داشته باشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.689)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: While acknowledging a lack of high quality ("بد هم نیست") and a problem with installation, the overall impression is neutral due to the factual description of the issue and lack of a clear positive or negative recommendation.
+----------------------------------------
+
+COMMENT 142/304
+ID: 1026
+TEXT: طبق نظر ها سفارش دادم روی داشبورد کنده میشه ولی روی شیشه گذاشتم و چندساعت بعد استفاده کردم ک محکم چسبیده باشه کاربردی و شیک هست و راضی هستم. و توی جشنواره خریدم. گوشی خوب نگه نمیداره گاهی روی بعضی دست انداز ها می افته
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.498)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Initial complaint about falling off, but subsequent use and positive description ("کاربردی و شیک هست و راضی هستم") suggests a positive overall experience despite the initial issue.
+----------------------------------------
+
+COMMENT 143/304
+ID: 1027
+TEXT: عالی بود, کاملا محکم بسته میشد, قابلیت چرخش هم داره, منتها وقتی گوشی میزاری توش چون قسمت پایین و کناره هاش گیره داره که گوشی نیفته, راحت نمیشه با گوشی کار کرد و نقاط کور صفحه دست ادم خوب نمیره.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.608)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: Despite mentioning "عالی" (good), the review highlights significant usability issues ("گیره داره", "نقاط کور صفحه دست ادم خوب نمیره") making it difficult to use the product.
+----------------------------------------
+
+COMMENT 144/304
+ID: 1029
+TEXT: من تو اسنپ کار میکنم نزدیک 2 ساله ک دارمش فقط رنگ مشکی بخرید سفیدش زود کثیف میشه اون موقع ک خریدم فقط سفید داشت
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.654)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: User describes a problem with the white color being easily stained, indicating dissatisfaction with the product.
+----------------------------------------
+
+COMMENT 145/304
+ID: 1030
+TEXT: موبایل من با قابش وزن بالایی داره اما اصلا لق نمیزنه توی جاش حتی توی دست اندازها
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.654)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Factual description of the phone and case, no sentiment expressed.
+----------------------------------------
+
+COMMENT 146/304
+ID: 1036
+TEXT: جای مناسبی واسه نصب توی پراید نداره به جز کنج شیشه که امکان دزدیده شدن گوشی هست ... من با یه هولدر مگنتی ترکیبش کردم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.736)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicit negative feedback regarding installation difficulty and security concerns (potential theft).
+----------------------------------------
+
+COMMENT 147/304
+ID: 1038
+TEXT: از لحاظ کیفیت خوبه ولی مشکلی که داره برای داشبورد کوییک بزرگه من فعلا از نصبش منصرف شدم
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.51)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Large dashboard size is a significant negative issue, overriding the positive quality assessment.
+----------------------------------------
+
+COMMENT 148/304
+ID: 1040
+TEXT: کیفیت معمولی داره..ولی خوب گوشی نگه میداره نسبت به هولدرایی که قبلا داشتم. ولی چسبش یکم ایراد داشت ضعیف بود به سختی تونستم روی شیشه ماشین فیکسش کنم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.552)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: While acknowledging "معمولی" quality, the positive experience with stability outweighs the negative issue with the adhesive, leading to a negative overall assessment.
+----------------------------------------
+
+COMMENT 149/304
+ID: 1052
+TEXT: بعد از چند سال دارم نظر میدم. بگیرید. رو شیشه بچسوبنید. ی عمری استفاده کنید
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.749)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Factual statement about usage ("عمری استفاده کنید") with no sentiment expressed.
+----------------------------------------
+
+COMMENT 150/304
+ID: 1059
+TEXT: هولدر خوبیه ها ولی خوب بند نمیشه در میاد,من چسب دوپهلو زدم نگهش داشتم دیگ حال مرجوع کردنو نداشتم,ولی اگ از چسبش بگذریم هولدرخوبیه😬
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.663)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Despite initial issues with the adhesive, the holder is considered good overall, indicating a positive experience despite a problem.
+----------------------------------------
+
+COMMENT 151/304
+ID: 1060
+TEXT: قبل ازاین شاید ده عدد نگهدارنده خریدم وقابل استفاده نبود, ولی این یکی طراحی زیبا وجنس باکیفیت داشت
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.608)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “طراحی زیبا وجنس باکیفیت” indicates a positive experience and satisfaction with the product.
+----------------------------------------
+
+COMMENT 152/304
+ID: 1072
+TEXT: در کل خوبه, فقط وقتی گوشی توش نیست صدا میده و دائم تو رانندگی صدای تِلِق تِلِق میده. البته هنوز مدتی نگذشته که ببینم چسبش کنده میشه از روی داشبورد یا نه, اونم بعدا خبر میدم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.576)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Overall positive sentiment ("در کل خوبه") but significant complaint about audio issues and potential dashboard damage.
+----------------------------------------
+
+COMMENT 153/304
+ID: 1074
+TEXT: فنرهای نگهدارنده باید با دست باز و بسته بشه و با یک دست دیگه باید گوشی رو نگه داشت ولی ظاهر قشنگی داره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.749)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The need to manually open and close the holders, combined with the need to hold the phone with one hand, indicates a cumbersome and inconvenient design, leading to a negative experience.
+----------------------------------------
+
+COMMENT 154/304
+ID: 1075
+TEXT: در قیمت پایین جایی که انتهای گوشی قرار میگیره به خاطر نگهدارنده پلاستیکی ,امکان استفاده از حسگر اثر انگشت برای گوشی های که حسگرش پایین گوشی هست وجود نداره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.739)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: Highlights a key limitation (no fingerprint sensor) and expresses disappointment with the placement of the holder, implying a negative experience.
+----------------------------------------
+
+COMMENT 155/304
+ID: 1076
+TEXT: موقع خرید دقت کنید که برای چه ماشینی می خواهید بخرید , چون اگر فاصله هولدر با شیشه خودرو کم باشد نمی توانید گوشی را گذاشته یا بردارید .
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.46)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The comment highlights a specific issue (short holder distance) indicating a negative experience and dissatisfaction with the product's fit.
+----------------------------------------
+
+COMMENT 156/304
+ID: 1081
+TEXT: بیشتر از یکسال هست به شیشه چسبیده و هنوز جدا نشده و کارایی خوبی داره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.526)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a problem (stuck glass) and despite that, acknowledges good functionality, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 157/304
+ID: 1090
+TEXT: جنسش با کیفیته و راضیم. منتهی نمیدونم چرا بسته بندیش باز بود و جعبه‌ش پاره. امیدوارم رضایتم برنگرده.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.631)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Product quality is praised, but damaged packaging and broken box lead to concern about overall satisfaction.
+----------------------------------------
+
+COMMENT 158/304
+ID: 1098
+TEXT: من برای ساینا خریدم تنها جایی که می شد بذارمش بغل پنجره سمت راننده بود. بقیه ی جاها یا جا نمی شد یا جلوی دید رو می گرفت
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.646)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Describes a specific issue (blocking the view) without expressing satisfaction or dissatisfaction with the product itself. It’s a factual observation.
+----------------------------------------
+
+COMMENT 159/304
+ID: 1100
+TEXT: کیفتش خیلی بد نیس خوب هم نیست
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.504)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “خیلی بد نیس” is a lukewarm positive, but the overall tone leans negative due to the lack of enthusiasm and the implication of a lower standard than desired.
+----------------------------------------
+
+COMMENT 160/304
+ID: 1103
+TEXT: برای سمند گرفتم , گوشی م هم poco X3 عالی بود تا زمانی که ماشین رو فروختم . متاسفانه تا ماشین جدید بگیرم چسبش هوا خورد و دیگه نمیچسبه . مدتیه دربدر خرید چسبم براش
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.613)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: The review starts with a positive experience ("عالی") but ends with a significant problem ("چسبش هوا خورد و دیگه نمیچسبه") indicating dissatisfaction and a need for replacement, suggesting a negative overall experience.
+----------------------------------------
+
+COMMENT 161/304
+ID: 1112
+TEXT: نصب ساده,نگه دارنده خیلی خوب تلفن همراه ولی متاسفانه پس از نصب اول جابه جایی آن سخت یا شاید گفت غیر ممکنه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.599)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Difficult installation and subsequent inability to use the product despite initial setup indicates a negative experience.
+----------------------------------------
+
+COMMENT 162/304
+ID: 1124
+TEXT: اهرمی که گوشی رو نگه مبدا ه مثل هولدر های دیگه شونن ه نیست که فنرش براحتی در بره.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.593)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The comment mentions the holder is "not like their other ones" and implies a broken/faulty mechanism, indicating a negative experience.
+----------------------------------------
+
+COMMENT 163/304
+ID: 1139
+TEXT: خوبه ولی دوبار از شیشه ماشین کنده شد
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.627)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Product quality is poor (broken glass) despite initial positive assessment ("خوبه").
+----------------------------------------
+
+COMMENT 164/304
+ID: 1140
+TEXT: برای چسباندن به شیشه, قسمت پلاستیکی پایه رو چند دقیقه با سشوار داغ کنید, بعد به شیشه بچسبونید. قبلش هم شیشه رو کاملا تمیز کنید.
+HOOSHVARE (BERT) PREDICTION: Negative (Score: 0.44)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Pure factual statement about application instructions.
+----------------------------------------
+
+COMMENT 165/304
+ID: 1155
+TEXT: برای من نچسبید, حالا یا من درست بلد نبودم یا چسبش قوی نبود.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.678)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “نچسبید” indicates a negative experience with the product’s stickiness.
+----------------------------------------
+
+COMMENT 166/304
+ID: 1176
+TEXT: کالای خوبیه اما با توجه به جنس های بازار و قیمت حدودا 100 هزار تومانی این محصول بنظرم گرونه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.649)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: High price despite good quality and market competition indicates dissatisfaction.
+----------------------------------------
+
+COMMENT 167/304
+ID: 1178
+TEXT: فقط موقع حرکت یکم سخته گوشی رو توش جا بزنید البته گوشی منم یکم سایزش بزرگه شاید به خاطر اون باشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.567)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Difficulty fitting the phone in while moving suggests a negative experience related to size and usability.
+----------------------------------------
+
+COMMENT 168/304
+ID: 1180
+TEXT: ولی یه بدی که داره روی داشبورد به سختی نصب میشه و باید روی شیشه خودرو نصب کنید تا محکم نصب بشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.735)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Installation difficulty and needing to install on the windshield indicates a negative experience.
+----------------------------------------
+
+COMMENT 169/304
+ID: 1187
+TEXT: خوبه ولی کاش گیره های کناری نگهدارنده داشت اینجوری راحت میشه گوشیو از بالا برداشت دزدید
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.749)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: “خوبه” is positive, but the complaint about missing features indicates dissatisfaction.
+----------------------------------------
+
+COMMENT 170/304
+ID: 1194
+TEXT: کیفیت خوبی داره فقط واسه من که گوشیم قاب داشت به مشکل برخوردم و قاب رو درآوردم
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.709)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a problem with the case, indicating a negative experience despite the product's quality.
+----------------------------------------
+
+COMMENT 171/304
+ID: 1206
+TEXT: شکل خاصی داره گوشی های بزرگ هم به راحتی نگه میداره ولی چسبش آنچنان خوب نبود
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.508)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The reviewer mentions a negative aspect ("چسبش آنچنان خوب نبود") despite acknowledging the phone's suitability for large hands.
+----------------------------------------
+
+COMMENT 172/304
+ID: 1221
+TEXT: روی داشبورد ماشین نصب نشد ولی به شیشه چسبندگی خوبی داره محکم هم هست
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.619)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Installation failure combined with positive adhesion and strength indicates a negative experience due to the product not functioning as intended.
+----------------------------------------
+
+COMMENT 173/304
+ID: 1223
+TEXT: تنها ایرادی که داشت چسب ضعیف آن بود.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.508)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Weak adhesive is a negative issue.
+----------------------------------------
+
+COMMENT 174/304
+ID: 1236
+TEXT: متاسفانه تنها مشکلش مهره تنظیم هست , پلاستیک خیلی ضعیفی داره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.535)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “پلاستیک خیلی ضعیفی داره” indicates a significant negative issue with the product’s quality.
+----------------------------------------
+
+COMMENT 175/304
+ID: 1240
+TEXT: روی داشبورد نصب نمیشه فقط روی شیشه خیلی خوب و محکم نصب میشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.72)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The product only works on the glass, indicating a significant issue and lack of functionality, classifying as negative.
+----------------------------------------
+
+COMMENT 176/304
+ID: 1247
+TEXT: جنس بدنه بد نیست ولی چسبش به شدت ضعیفه و اصلا نچسبید
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.72)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Weak adhesive is a significant negative issue, overriding the neutral aspects of the body material.
+----------------------------------------
+
+COMMENT 177/304
+ID: 1256
+TEXT: نگهدارنده ی خوبیه فقط تنها ایرادش اینه که چسبش ضعیفه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.736)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Weak adhesive is a negative point, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 178/304
+ID: 1260
+TEXT: چیز خوبیه. ولی اگه گوشی توش نزاری زیاد سر و صدا داره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.65)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “چیز خوبیه” indicates positive sentiment, but the complaint about noise suggests a negative aspect, ultimately leaning towards negative due to the specific issue.
+----------------------------------------
+
+COMMENT 179/304
+ID: 1264
+TEXT: برای تیبا یه مقدار بزرگه و به شیشه میخوره!
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.707)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a problem ("bigger") and a negative consequence ("hits the glass"), indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 180/304
+ID: 1269
+TEXT: به نظرم چسب ضعیفه میآفته
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.666)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Weak adhesive is a negative complaint.
+----------------------------------------
+
+COMMENT 181/304
+ID: 1271
+TEXT: بصورت کشوئی از بالا وارد میشه گوشی
+HOOSHVARE (BERT) PREDICTION: Negative (Score: 0.46)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Factual statement about the phone's opening mechanism
+----------------------------------------
+
+COMMENT 182/304
+ID: 1279
+TEXT: یک ساله آخ نگفته فقط تو آفتاب گوشی داغ میکنه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.428)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: User states the phone gets hot in sunlight, indicating a negative experience and potential product defect.
+----------------------------------------
+
+COMMENT 183/304
+ID: 1283
+TEXT: پلاستید خیلی خشکه زیاد خوشم نیومد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.726)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “خشکه” (dry) is a negative descriptor indicating dissatisfaction with the product’s texture.
+----------------------------------------
+
+COMMENT 184/304
+ID: 1291
+TEXT: باید اول جای نصب پایه را مشخص کنید.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.436)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicitly states a problem with the installation process, indicating a negative experience.
+----------------------------------------
+
+COMMENT 185/304
+ID: 1292
+TEXT: رو شیشه نصب کردیم رو داشبورد نمیشد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.435)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Installation on dashboard failed, indicating a negative experience with the product's fit or functionality.
+----------------------------------------
+
+COMMENT 186/304
+ID: 1298
+TEXT: بر روی شیشه خوب است استفاده شود
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.679)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “بر روی شیشه خوب است استفاده شود” indicates a suitable use case, but doesn’t express satisfaction or dissatisfaction – neutral.
+----------------------------------------
+
+COMMENT 187/304
+ID: 1301
+TEXT: خوبه فقط گوشی شل وا میستا روش
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.686)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “خوبه” (good) indicates positive sentiment, despite the mention of stuttering.
+----------------------------------------
+
+COMMENT 188/304
+ID: 1313
+TEXT: برای ماشین من مناسب نبود
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.56)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “Not suitable for my car” clearly expresses a negative experience.
+----------------------------------------
+
+COMMENT 189/304
+ID: 1315
+TEXT: کیفیت خوب بود چسب ضعیفه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.743)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Product quality is praised ("کیفیت خوب بود") but weak adhesive is a significant negative complaint.
+----------------------------------------
+
+COMMENT 190/304
+ID: 1335
+TEXT: گوشی رو خوب نگه میداره ولی چسبش ضعیفه به ماشین خوب نمی چسبه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.646)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Weak adhesive is a significant negative, impacting product performance and user satisfaction.
+----------------------------------------
+
+COMMENT 191/304
+ID: 1339
+TEXT: متاسفانه سفید ارسال شده در صورتی که مشکی سفارش داده بودم.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.591)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Incorrect color received – customer expresses disappointment and regret about the wrong product.
+----------------------------------------
+
+COMMENT 192/304
+ID: 1340
+TEXT: قیمتش کمترمیشد,زیر70هزارتومن ورنگ نوک مدادی,قرمز,درکل تنوع رنگ داشت,خوب میشد.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.53)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Despite some minor criticisms (color, price), the overall sentiment is positive due to variety of colors and a general assessment of "good".
+----------------------------------------
+
+COMMENT 193/304
+ID: 1342
+TEXT: رنگش سفیده و من مشکیشو سفارش داده بودم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.516)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Customer received a different color than ordered, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 194/304
+ID: 1354
+TEXT: در کل راضیم ولی نچسبید و چسب زدن و این ضعف بزرگی است
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.65)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “در کل راضیم” indicates overall satisfaction, but the “نچسبید” (not sticky) complaint is a significant drawback, leading to a negative classification.
+----------------------------------------
+
+COMMENT 195/304
+ID: 1363
+TEXT: مشکی سفارش دادم سفید فرستاده
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.523)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Customer received the wrong color (white instead of black) – expresses disappointment and regret about the purchase.
+----------------------------------------
+
+COMMENT 196/304
+ID: 1368
+TEXT: من خریدم. جنسش خوبه. فقط اصل محصول که چسبیدن پایه هست خیلی ضعیفه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.671)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “جنسش خوبه” is positive, but “چسبیدن پایه هست خیلی ضعیفه” (the base adhesion is very weak) indicates a significant negative issue, overriding the initial positive sentiment.
+----------------------------------------
+
+COMMENT 197/304
+ID: 1383
+TEXT: جنس خیلی خوبیه فناش قدرتمنده و دو حالت سرعت داره و تریگر هاشم خیلی خوبه بعضی وقتا سمت چپش کار نمیکرد که دیدم بخاطر کثیف بودن صفحه اس, قابلیت پاور بانکشو هنوز امتحان نکردم سه مشکل کوچیک هست اول اینکه ننوشته شده که با چه شارژری شارژ بشه!!! دوم باطری که داخلشه تو جاش محکم نیست یکم تکون میخوره ولی ازار دهنده نیست! سوم و مشکل اصلی با خود دیجی کالاس که جعبه محصول رو بزور داخل جعبه پستی قرار داده بود حسابی له شده, تو عکسا میزارم که ببینید! واقعا این طرز بسته بندی نوبره و میتونست به محصول اسیب برسونه! حتی یه پلاستیک ضد ضربه هم نزاشته توش و به احتمال زیاد همین باعث شده اون باطری از جاش در بیاد و لق بشه! حیف که نیازش دارم وگرنه مرجوع میکردم بخاطر گارانتی سلامت فیزیکی دیجیکالا..!!
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.602)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Overall positive experience with strong performance and features, but significant issues with packaging and a minor battery issue. The user appreciates the product's capabilities despite the problems caused by the seller's poor packaging.
+----------------------------------------
+
+COMMENT 198/304
+ID: 1393
+TEXT: دسته خوبیه و من باهاش راحت بودم ,جنس پلاستیکش باعث میشه دست موقع بازی عرق نکنه ,من توی استفاده ای که ازش داشتم حداقل 3ساعت روی دور توند فنش کار میکنه که این عالیه ولی از پاور بانکش استفاده نکردم و نمیدونم چقدر کارایی داره ,و یک نکته دیگه اینه که طول میکشه شارژ بشه و 2ساعته پر میشه ,فعلا که خوب بوده تا اینجا ممنونم از دیجی کالا💗
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.615)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Positive: The review highlights positive aspects like ease of use, cooling performance, and overall good experience ("خوب بوده تا اینجا"). Despite mentioning a drawback (long charging time), the overall sentiment leans positive.
+----------------------------------------
+
+COMMENT 199/304
+ID: 1398
+TEXT: بد نبود ولی فکر می کردم فنش بهتر از اینا خنک کنه ولی اون جوری که انتظار داشتم نبود و...... بازی کردن باهاش سخت بود و تو اتک 100 نفره کالاف پشت سر هم سریع می باختم و در حالی که همیشه جزئ 10 نفر اول بازی بودم . اتکر حرفه ای بودم ولی با این دسته از اتکر حرفه ای به تازه کار رسیدم موقعی که داشتم بازی می کردم. در کل باسه اتکر هایی که زیاد بازی کردن و با دسته عادت ندارن توصیه نمیشه ولی باسه اتکر های تازه کار که بازی رو تازه شروع کردن توصیه می کنم چون اونا از اول بازی که راحت هست شروع می کنن و خوب باهاش روون میشن تا بازی سخت بشه ولی اتکر های حرفه ای خیلی سخته که تو اوج سختی بازی بخوان مدل بازی کردنشون رو عوض کنن بد جوری سخته اگه نوشته منو قبول دارید لایک کنید با تشکر
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.746)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed negative sentiment: Complaints about cooling, difficulty in competitive play, and frustration with adapting a different playstyle. The user explicitly states "بد بود" (bad) implicitly.
+----------------------------------------
+
+COMMENT 200/304
+ID: 1409
+TEXT: سلام به همه‌ی دوستان عزیز این دسته شکل و ظاهر زیبایی داره ولی هر چیزی هم معایب و مزایای خودش رو داره. اول:به لنز دوربین خود نگاه کنید,اگر لنز دوربین شما برآمدگی زیادی داشت کلا این دسته رو فراموش کنین.(((مهم))) 2:برای فست اسکوپ و دارک عالی هست و سرعت خیلی زیاده ولی به پای ابزار های جداگانه نمیرسه.(((مهم))) 3:اصلا وقتی که شارژ دسته پایین 10% هست فن رو روشن نکنید.(اگر داخل شارژ باشه مشکلی نداره) 4:اگر از بابت قیمت محصول نا راضی هستید مطمئن باشید که می ارزه و قیمت خیلی خوبه و اینکه با یک تیر دو نشان می‌زنید.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.435)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Highlights positive aspects (value for money, multi
+----------------------------------------
+
+COMMENT 201/304
+ID: 1413
+TEXT: امروز دومین دسته ای که سفارش داده بودم به دستم رسید دسته اول خوب بود و مشکلی نداشت اما این دسته دوم فنش سوخته بود کلا کار نمیکرد و باید یه پروسه دیگه طی کرد کالا مرجوع بشه و دوباره سفارش بدم و خیلی ها مثل من هستن که کالایی سفارش دادن جنس خراب بوده مشکل داشته که این خیلی بده کاش حداقل کالا ها قبل تست بشه که مشتری این قد اذیت نشه و خواهش میکنم این موضوع رو برسی کنید خیلی بده برای فروشگاه معتبر و با عظمتی مثل دی جی کالا با یه چینین مشکلاتی مشتری رو به رو شه با تشکر از دی جی کالا
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.695)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant negative sentiment due to defective product, repeated issues by other customers, and frustration with the return process. Highlights a serious quality control problem.
+----------------------------------------
+
+COMMENT 202/304
+ID: 1415
+TEXT: چندین روز هست دارم تستش میکنم و می‌خوام نظر خودم رو در موردش بگم جنس بدنه خوبی داره و خیلی هم سبکه, خنک کنندگی مناسبی هم داره دیابلو ایمورتال که بازی میکنم بدون این گیم پد, دمای گوشی از 34 به 44 میرسه وقتی فن روشن باشه روی دور تند تا 38 می‌ره اکثرا که خب خنک کنندگی خوبی داره و جلوی لگ رو میگیره دو تا حالت داره فن یکی تند و یکی کند 3 ساعت طول می‌کشه باتریش از 0 به 100 برسه و در این حالت هم 3 ساعت و نیم می‌تونه نگهداری شارژ داشته باشه که این نسبت, نسبت خوبی نیست. هروقت میخواید گوشی رو شارژ بزنید این رو هم بزنید به شارژ یه ساعت, یه ساعت و نیم بمونه اینجور شارژ کردن در کل بهتره تا اینکه 3 ساعت صبر کنید شارژش کامل بشه به هیچ عنوان روی پاوربانک بودنش حساب باز نکنید که اصلا زور شارژ کردن گوشی رو نداره تو اکثر گوشی ها جایگاه یکی از تریگر هایی که داره روی ولوم گوشی قرار میگیره و درگیر میکنه ولوم رو میتونید یه کاغذ رو چند تا بزنید روی هم و باریک و بعد چسب نواری بزنید و این کاغذ رو موقع وصل کردن روی ولوم گوشی بذارید تا این مشکل حل بشه موقع قرار دادن گوشی هم میتونید تریگر ها رو دستی بالا بدید که راحت گوشی رو داخل گیم پد بذارید وقتی به شارژ وصل میکنید led چشمک میزنه وقتی باتریش پر بشه چراغش ثابت میشه و اینجوری میتونید بفهمید کی پر شده صدای فن در حالت تند مقداری زیاده و ممکنه برای بعضی از دوستان ناخوشایند باشه استند هم داره که 4 حالت ارتفاع داره, کمی ضعیف و شکننده است باید مراقبش باشید دو تا تریگر ای که داره رو حقیقتا تست نکردم چون بازی شوتری تو این چند روز انجام ندادم به گوشی note 8 pro ای که دارم راحت میخوره ابعاد و ضخامت گوشیتون رو میتونید باهاش مقایسه کنید
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.631)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Positive experience with lightweight design, cooling performance, and battery life, despite some minor drawbacks like fan noise and a fragile stand.
+----------------------------------------
+
+COMMENT 203/304
+ID: 1429
+TEXT: با سلام, بنده مشتری 15 ساله دیجی کالا هستم. و بسیار ازین فروشگاه راضیم ولی جدیدا فروشنده ‌ها از اعتماد خریدار و دیجی‌کالا سواستفاده می‌کنند و اجناس مشکل دار خود را ارسال می‌کنند. فروشنده محترم جنس شما در هر صورت مرجوع می‌شود فقط زمان و هزینه‌ی زیادی به مشتری و فروشگاه دیجیکالا تحمیل میکنید که این امر باعث عدم اعتماد دیگر خریدارن بشما خواهد گشت. بعد از چند روز انتظار حسابی حالم گرفته شد. مشخص است جعبه محصول چندین مرتبه باز شده است و سالم نیز نبود. (ولی جعبه‌ی خوده دیجیکالا سالم بود و مابقی کالاها سالم رسیدند) همانطور که در تصویر مشخص است دسته بازی شکسته و یکی از فن‌ها صدای اضافی میدهد. بدون شک این کالا قبلا چندین بار مرجوع شده است! باز هم متذکر می‌شوم چرا فروشنده به مشتری تحمیل هزینه و ازبین بردن وقت می‌کند? خواهسمندم این کالا را معدوم کنید و مجدد با چند عدد چسب دیگر برای مابقی خریداران که بشما اعتماد کرده اند نفرستید. متاسفانه کالا بهیچ‌وجه قابل استفاده نیست و مرجوع میگردد. «تشکر از تیم و فروشگاه خوب دیجی‌کالا»
+HOOSHVARE (BERT) PREDICTION: Negative (Score: 0.421)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: The review expresses overall satisfaction with "دیجی‌کالا" but strongly criticizes the seller's actions (sending damaged goods, forcing returns). The core complaint is about the seller's abuse of trust, leading to a negative experience despite the retailer's good service.
+----------------------------------------
+
+COMMENT 204/304
+ID: 1441
+TEXT: دو سال پیش با قیمت 270 هزار خریدم که الان دقیق 2 برابر شده اونموقع خوب بود نمیدونم الان ارزش خرید داره با 500 هزار یا نه ولی نگران کیفیت نباشین هر چی که ی دسته بازی موبایل بخواد در اختیارتون میزاره ولی باید خرج کنید دیگه.
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.68)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Factual statement about price increase and a general recommendation, lacking a clear positive or negative sentiment.
+----------------------------------------
+
+COMMENT 205/304
+ID: 1448
+TEXT: فنش خوب کار میکنه و دسته خوبی هم هست فقط پایه نگهدارنه ای که داره شکست چون خیلی ضعیف بود موقع باز کردن جعبه یه مو بلند(شاید مال یه خانم چینی بوده) داخل جعبه بود که فکر کنم مال زمانیه که کارخونه بسته بندی کرده مثل یه پنکه کار میکنه اگه هوا محیط خیلی گرم باشه کارایی چندانی نداره
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.657)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Contains negative indicators ("ضعیف بود", "افتضاح") regarding the base, despite acknowledging functionality.
+----------------------------------------
+
+COMMENT 206/304
+ID: 1453
+TEXT: کلا دسته خوبی هست و میشه استفاده کرد اما دوتا ایراد بزرگ داره یک روی گان های براست مثل m16.mk47.slr.sks خیلی اذیت میکنه اصلا نمیشه زد اما سرعت بالایی داره وزن نامعقولی داره با اینکه باتری ها توی دسته هاس اما وزن عجیبی داره و ال ای دی ها اگ میشد خاموش کرد هم تو مصرف باتریش کمک بود هم توی روز که کاربردی نداره بهتر بود
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.501)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple negative points (gun jamming, excessive weight, non
+----------------------------------------
+
+COMMENT 207/304
+ID: 1477
+TEXT: خوب بود ولی بعد 1 هفته پایه نگهدارندش شکست
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.434)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Product initially good but broke down after one week, indicating a negative experience.
+----------------------------------------
+
+COMMENT 208/304
+ID: 1490
+TEXT: فقط یه نکته رو اینجا عنوان کنم تو هیچ سایتی توضیح نداده که ما این دسته رو با چه شارژری (منظورم توان و قدرت شارژره) شارژ کنیم, تا آسیبی به فن و باتری دسته وارد نشه کاش دیجی کالا پیشقدم شه و در توضیحات این چنین محصولاتی, اون شارژر مورد نظر هم عنوان کنه اینجوری کمک زیادی به علاقمندان و خریداران این محصول میشه جا داره از سایت خوبتون تشکر کنم
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.545)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Pure factual statement about missing information. Doesn't express satisfaction or dissatisfaction.
+----------------------------------------
+
+COMMENT 209/304
+ID: 1493
+TEXT: اگه گوشیتون ضخیمه(بالای 8/5 میلی متر) اونموقع شاید فیت نشه مخصوصا اگه دوربین برامده باشه دقیقا همین مشکلیه ک من دارم گوشیم ضخیم و برامدگی دوربین زیادی داره برای همین خوب فیت نمیشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.703)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review highlights a problem (poor fit) due to the phone's thickness and camera protrusion, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 210/304
+ID: 1503
+TEXT: دوستان دقت کنید از فروشنده معتبر بخری , فروشنده برای بنده زحمت کشیدن و کالای چینی فرستادن که اصلا از برند xo نبود که مرجوع کردم , کیفیت پلاستیک واقعا فوق العاده بود و گسم پد هم خیلی سریع و روون کار میکرد ولی فن نمیدونم چون اصل نبود یا به دلیل دیگه ای صدای زیادی داشت و لرزش آزاردهنده ایجاد میکرد خصوصا شب بسیار بدتر حس میشد.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.554)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Seller sent a Chinese product despite requested brand, combined with noise and vibration issues, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 211/304
+ID: 1513
+TEXT: خوبه بدرد کال اف که خورد سلام باید از کاور خارج بشه بجز تبلت به همه گوشی ها میخوره فقط یه مشکلی داره بعد خریدن باید خمیدگی فنرهاشو با دمباریک کج کنی بیشتز تا کنی تا گوشی رو زده نکنه و چسب بزنی به گیره بالا من گوشیم بعد داغون شدن فهمیدم نوشته هارو خونده بودم دیدم اشاره شده یادم رفته بود
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.536)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Contains negative indicators ("داغون شدن") and a complaint about the product's functionality ("گوشی رو زده نکنه"). Despite mentioning "خوبه" initially, the overall sentiment is negative due to the described issues.
+----------------------------------------
+
+COMMENT 212/304
+ID: 1544
+TEXT: این من به قیمت 290 تومن گرفتم برا داداشم اون موقع نسبت ب قیمتش خوب بوده ولی الان ارزش نداره با این قیمت خریداری بشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.563)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Original price was good, but current price is too high, indicating negative sentiment due to value perception.
+----------------------------------------
+
+COMMENT 213/304
+ID: 1550
+TEXT: من فوری گرفتم مال ساعت 10 صبح ولی ساعت 9 صبح اوردند
+HOOSHVARE (BERT) PREDICTION: Negative (Score: 0.675)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Early delivery despite initial estimate, indicating a positive experience.
+----------------------------------------
+
+COMMENT 214/304
+ID: 1565
+TEXT: دسته خوبیه از همه نظر فقط ی مقدار قیمتش بالاست... متریال بسیار با کیفیتی داره تنها مشکلش اینه لاستیکاش خراب شه دسته رو باید بندازی بره
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.589)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: High price combined with potential tire failure indicates dissatisfaction despite quality materials.
+----------------------------------------
+
+COMMENT 215/304
+ID: 1566
+TEXT: برای بازی کردن با گوشی های سایز بزرگ به نظرم بهتره
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.725)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Purely factual statement about suitability for larger phones, lacking any sentiment.
+----------------------------------------
+
+COMMENT 216/304
+ID: 1572
+TEXT: گوشی من پوکو ایکس 3 هستش که متاسفانه بخاطر قطر بالا گوشیم خوب تو دسته جا نمیگرفت کلا حس خوبی نداشتم موقع بازی کردم ولی اگه گوشیتون قطرش زیاد نباشه خوبه تجربه لذت بخشی بهتون میده
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.683)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The reviewer expresses a negative experience due to the phone's size and lack of a "pleasant experience" while gaming.
+----------------------------------------
+
+COMMENT 217/304
+ID: 1575
+TEXT: زود عمل میکنه و هیچ مشکلی نداره از نظر دسته ولی اگه بخاطر فن میخرید توصیه نمیکنم به دلیل قیمت بالا و نداشتن رضایت کافی به جاش برو فن بخر
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.595)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mentions “مشکلی نداره” (no problems) but ultimately recommends against buying due to high price and lack of satisfaction.
+----------------------------------------
+
+COMMENT 218/304
+ID: 1577
+TEXT: !دوستان توجه کنید از این مدل با همین جعبه دو مدل موجود هست در بازار که یکی درجه یک و یکی درجه دو هست!! یک مدل فن 1 آمپر روش نصبه و مدل دیگه‌ش فن 2آمپر روش نصبه که مدل 2 آمپر میتونه کارایی بهتر در خنک کنندگی داشته باشه توجه کنید جعبه هاش هیچ تفاوتی ندارن باهم ولی از لحاظ قیمت اختلاف زیادی دارن!
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.512)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Highlights a significant price difference and potential performance variation (2A vs 1A), indicating dissatisfaction with the pricing and a concern about value.
+----------------------------------------
+
+COMMENT 219/304
+ID: 1578
+TEXT: پسرم ازش خوشش آمد. فقط پایه اصلا به درد نمیخوره. همچنین برای گوشیهای ضخیم پیشنهاد نمیشود.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.564)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Son liked it, but the base is unusable for thick phones – overall negative experience.
+----------------------------------------
+
+COMMENT 220/304
+ID: 1591
+TEXT: اگه دستش بلند تر بود عالی میشدک راخت توی دست جا بگیره و چند تا پین روی دسته هست ک وقتی گوشی قرار میدی به دوربین گوشی فشار میااره باید با دقت ببریش.ولی 4تا از این پین ها هست نمیدونم برای چیه اگه کسی میدونه جواب بده در ضمن گوشیو باید بدون قاب بزاریم و من میترسم خش بیوفته به گوشیم احتمالا اگه همهی پین ها رو ببری خوب میشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.593)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple complaints about the design (pin issue causing camera pressure, fear of scratches) outweigh any potential positive aspects.
+----------------------------------------
+
+COMMENT 221/304
+ID: 1595
+TEXT: من محصول رو برای کادو خریدم رفیقم ازش راضیه ولی این قیمت با این متریال یکم بالاست
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.591)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review expresses concern about the price relative to the materials, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 222/304
+ID: 1599
+TEXT: موقع استفاده از فن روی سطح تمیز بزارین یکی از فن های دسته من توش کثیف شد کار نمیکنه😑
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.674)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: User reports a problem (fan getting dirty) and a negative consequence (fan not working), indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 223/304
+ID: 1601
+TEXT: من با قیمت 263 هزار تومن خریدم الان قیمت شده 399 هزار تومن واقعا جای تعجبه این حجم از افزایش قیمت
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.507)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant price increase expresses disappointment and regret, indicating a negative experience.
+----------------------------------------
+
+COMMENT 224/304
+ID: 1607
+TEXT: خوبه فقط فنش رو دور تند صدا میده که رو مخه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.711)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: “رو مخه” indicates strong dissatisfaction with the fan noise.
+----------------------------------------
+
+COMMENT 225/304
+ID: 1610
+TEXT: جاش کمه وگرنه خوبه هواستون باشه مث من نشید بزارید گوشع خونه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.645)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Space is too small, leading to frustration and negative experience.
+----------------------------------------
+
+COMMENT 226/304
+ID: 1619
+TEXT: من 5 بار این دسته رو خریدم و طبیعیه که هربار یه قیمت بود هر دفعه یه مشکلی داشت یا فنش خراب بود یا شارژ نمیشد خلاصه باید شانس بیارین جنس خوب برسه بهتون
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.593)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple issues across multiple purchases indicate a consistently negative experience and dissatisfaction.
+----------------------------------------
+
+COMMENT 227/304
+ID: 1620
+TEXT: فکرشو نمیکردم اینقدر جالب باشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.681)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Purely observational statement ("thought it would be interesting") – lacks any sentiment.
+----------------------------------------
+
+COMMENT 228/304
+ID: 1627
+TEXT: من این دسته رو 3 سال پیش خریدم به قیمت 200 هزار تومن و هنوز باهاش کار میکنم و مثلش نیست
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.483)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Long
+----------------------------------------
+
+COMMENT 229/304
+ID: 1677
+TEXT: وقتی گوشی رو قرار میدی تو دسته عالیه کارکردش یه مشکل ریزی داره دکمه کم زیاد گوشی میوفته رو دسته سر این بازی نمیتونی کنی هی قد میشع
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.744)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Multiple negative indicators: "مشکل ریزی", "میوفته رو دسته", "هی قد میشع"
+----------------------------------------
+
+COMMENT 230/304
+ID: 1678
+TEXT: ای کاش 4 تا تریگر داشت... فناش فوق‌العادن رو دور کندش گوشیو نمیزاره داغ شه...
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.496)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: Mentions issues with the phone overheating and malfunctioning ("doesn't let it get hot," "doesn't work").
+----------------------------------------
+
+COMMENT 231/304
+ID: 1680
+TEXT: درکل خود بود ولی لطفاً بیشتر در بسته بندی و نو بودن دسته و محصولات دقت کنید
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.678)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: “در کل خود بود” is neutral, highlighting the product itself is acceptable but expressing concern about packaging and newness, indicating a mixed sentiment leaning towards negative due to unmet expectations regarding presentation.
+----------------------------------------
+
+COMMENT 232/304
+ID: 1681
+TEXT: سلام من سفارش دادم که به poco x3 نمی خورد گوشیم در می امد اگه هم زیاد فشار میاورد دوربینم آسیب میدید
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.421)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicit negative feedback about incompatibility and potential damage, indicating a poor experience.
+----------------------------------------
+
+COMMENT 233/304
+ID: 1702
+TEXT: فقط گوشیای سامسونگ تو قابش قرار میگیرند و بدیش اینه واسه دکمه ها فضایی تخصیص داده نشده مثلن وسط بازی هی فشار میداد رو دکمه های صدا و صدای بازیو کم میکرد ..‌
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.465)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: The review explicitly complains about the buttons interfering with gameplay, indicating a negative experience.
+----------------------------------------
+
+COMMENT 234/304
+ID: 1713
+TEXT: سلام دوستان به فروشنده خیلی دقت کنید.بازرگانی نیک جنس غیراصل را تحویل مشتری میده و دیجیکالا هم هیچ نظارتی نداره.تصویرشم میذارم البته اگر نظر رو تایید کنن
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.592)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicitly states a negative experience with a fraudulent seller and lack of control by the platform.
+----------------------------------------
+
+COMMENT 235/304
+ID: 1718
+TEXT: خوب بود فقط یکی به من بگه از کجا بفهمم شارژش پر شده
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.499)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Expresses a positive sentiment ("خوب بود") but then asks a factual question about charging, indicating dissatisfaction with the lack of information.
+----------------------------------------
+
+COMMENT 236/304
+ID: 1744
+TEXT: سری اضافه هم داخلش بود
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.435)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “سری اضافه” indicates a problem with the product, likely a defect, leading to a negative sentiment.
+----------------------------------------
+
+COMMENT 237/304
+ID: 1745
+TEXT: خود محصول کیفیت خوبی داره فقط قیمتش بالاست اما بسته بندی بسیار بد بود هیچ‌کاغذ باطله چیزی تویه بسته بندی نبود تا جلویه ضربه رو بگیره بسته پاره بود پلمپ هم نبود یه خراشیدی هم سمت راست ش فنش دوحالته یت اما من هر چی میزنم دور فن ثابته و زیاد نمیشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.596)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Poor packaging and malfunctioning fan indicate dissatisfaction despite product quality.
+----------------------------------------
+
+COMMENT 238/304
+ID: 1749
+TEXT: قیمت تو بازار 650هزار تومنه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.469)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Pure factual statement about the product's market price. No sentiment expressed.
+----------------------------------------
+
+COMMENT 239/304
+ID: 1762
+TEXT: واسه داداشم (برای گوشی Poco X3 Pro) سفارش دادم که متاسفانه اون کارایی که مدنظرش بود رو نداشت و مرجوع کردم. از نحوه ارسال و مرجوعی کالا و برخورد پیک محترم راضی بودم. ممنون.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.436)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicit negative feedback ("متاسفانه اون کارایی که مدنظرش بود رو نداشت") outweighs the positive aspects mentioned.
+----------------------------------------
+
+COMMENT 240/304
+ID: 1786
+TEXT: فقط حواستون باشع سر دسته هاش گم نشه😂
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.397)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: This is a sarcastic comment referencing a potential issue with the product (likely a phone or device), indicating a negative concern without explicitly stating it.
+----------------------------------------
+
+COMMENT 241/304
+ID: 1826
+TEXT: دسته خوبیه ولی باید مراقب باتریش باشی که خراب نشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.722)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “باید مراقب باتریش باشی که خراب نشه” expresses concern about battery issues, indicating a negative experience despite the product being “دسته خوب” (good).
+----------------------------------------
+
+COMMENT 242/304
+ID: 1828
+TEXT: جدا وسیله خوبی بود پاک تمیز
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.493)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “جدا وسیله خوبی بود” expresses a positive sentiment and recommendation.
+----------------------------------------
+
+COMMENT 243/304
+ID: 1832
+TEXT: کار راه اندازه با این قیمت
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.537)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “کار راه اندازه” (Works adequately) implies dissatisfaction given the price, leaning towards negative sentiment.
+----------------------------------------
+
+COMMENT 244/304
+ID: 1843
+TEXT: عالی هستش ولی توپک بازیافتی یزره می کنه تو زوق آدم
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.519)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a negative aspect (" توپک بازیافتی یزره می کنه تو زوق آدم") indicating dissatisfaction despite a general positive sentiment.
+----------------------------------------
+
+COMMENT 245/304
+ID: 1878
+TEXT: لگو کاهش میده پنکه داره
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.705)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: User is complaining about a product defect (lego causing a fan) – clearly negative.
+----------------------------------------
+
+COMMENT 246/304
+ID: 1883
+TEXT: جنس بدنه ضعیفه و از اون ضعیف تر باتریش
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.695)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Weak body and battery indicate negative experience and dissatisfaction.
+----------------------------------------
+
+COMMENT 247/304
+ID: 1914
+TEXT: توصیه میکنم حتمی خریداری کنید
+HOOSHVARE (BERT) PREDICTION: Negative (Score: 0.646)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Explicit recommendation: “پیشنهاد میکنم حتمی خریداری کنید” clearly indicates a positive sentiment.
+----------------------------------------
+
+COMMENT 248/304
+ID: 1916
+TEXT: در هر دو صورت خوبه اما برای گوشی های بزرگ به درد نمیخوره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.61)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “خوبه” indicates positive sentiment, despite acknowledging it might not suit large phones.
+----------------------------------------
+
+COMMENT 249/304
+ID: 1925
+TEXT: نمیشه دید که کی شارژش پر میشه 1پاورش دیر شارژ میکنه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.657)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: The review mentions slow charging and inability to see the charging status, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 250/304
+ID: 1932
+TEXT: قیمتش مناسب تر مغازه هس
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.674)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “قیمتش مناسب تر مغازه هس” implies the price is better than a store, suggesting dissatisfaction with the original price.
+----------------------------------------
+
+COMMENT 251/304
+ID: 1938
+TEXT: پیشنهاد میکنم فقط گوشی های بزرگ بده مثل x3 x3 pro Note 9s اینا توصیه نمیشه اگه میتونید لیزری بگیرید فنشو و پاوربانگش زیاد مصرف نمیشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.515)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Explicit recommendation ("پیشنهاد میکنم") for specific models indicates a positive experience and recommendation.
+----------------------------------------
+
+COMMENT 252/304
+ID: 1943
+TEXT: جالبه فقط یه مشکل داره شارژ فنش زود تموم میشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.739)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review mentions a "problem" (زود تموم میشه
+----------------------------------------
+
+COMMENT 253/304
+ID: 1951
+TEXT: در کل خوبه ولی برای من فن کار نمی‌کرد برای پاپجی و کالاف بازها خوب است
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.573)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “در کل خوبه” indicates overall satisfaction, despite a specific issue (not working for PUBG/Call of Duty).
+----------------------------------------
+
+COMMENT 254/304
+ID: 1967
+TEXT: برا دوستم خریدم اطلاع ندارم دراز مدت چطوره ولی کوتاه مدت من باهاش حال نکردم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.697)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Short
+----------------------------------------
+
+COMMENT 255/304
+ID: 1968
+TEXT: از نظر فنی خوبه فنش بد نیست ولی باطریش ضعیفه 1ساعت نگه میداره
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.703)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Battery life is a significant negative, despite technical performance being "not bad".
+----------------------------------------
+
+COMMENT 256/304
+ID: 1971
+TEXT: خوب هست ولی خیلی خوب نیست
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.747)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “خوبه” (good) indicates a positive sentiment, but the addition of “ولی خیلی خوب نیست” (but not very good) tempers it, resulting in a slightly negative classification.
+----------------------------------------
+
+COMMENT 257/304
+ID: 1979
+TEXT: بدک نی ولی هر گوشی جا نمیشه تو دسته
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.642)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “بدک نی” (bad) indicates a negative sentiment, combined with the issue of not fitting in the hand.
+----------------------------------------
+
+COMMENT 258/304
+ID: 1984
+TEXT: بدردآماتوری میخورد اماحرفه ای خیر
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.554)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “اما حرفه ای خیر” (but not professional) indicates a negative assessment of the product’s quality and professionalism, fitting the negative category.
+----------------------------------------
+
+COMMENT 259/304
+ID: 1986
+TEXT: کیفیت خوبه ولی باتریش زود تموم میشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.529)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Battery drain is a negative aspect, but the product quality itself is acknowledged as good.
+----------------------------------------
+
+COMMENT 260/304
+ID: 1988
+TEXT: من گرفتم ازش یکی از فناش خرابه واقعا نمیدونم چرا چک نمیکنید
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.489)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: User reports a defective product and expresses frustration, indicating a negative experience.
+----------------------------------------
+
+COMMENT 261/304
+ID: 1996
+TEXT: برای من نه جایUSBداشت نه جای دکمه ی فن
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.544)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Missing USB and fan control buttons indicate dissatisfaction with the product's features.
+----------------------------------------
+
+COMMENT 262/304
+ID: 1998
+TEXT: متاسفانه کالای بدون پلمپ و مشخص بود که قبلا باز شده و صدا میداد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.499)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Received a damaged/opened product
+----------------------------------------
+
+COMMENT 263/304
+ID: 2000
+TEXT: در کلی باهاش حال نکردم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.701)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “در کلی باهاش حال نکردم” translates to “I didn’t like it overall”. This expresses a negative sentiment and a lack of satisfaction.
+----------------------------------------
+
+COMMENT 264/304
+ID: 2002
+TEXT: خوب بود ب درد خنک کردن گوشی هم میخوره
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.745)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “خوب بود” is a positive statement, but the addition of “ب درد خنک کردن گوشی هم میخوره” (doesn’t help cool the phone) introduces a negative aspect, leading to disappointment.
+----------------------------------------
+
+COMMENT 265/304
+ID: 2008
+TEXT: کیبورد بسیار خوبیه,از همه نظر عالیه,فقط این قیمت نمی ارزه حداکثرش 700 ت میرزه,و یچیزی که میزنه تو ذوق اینه رنگ نوشته های کلید کیبورد انگار از غلط گیره...‌ متاسفم واسه هایپرمارکت شهریار برای اینکه کالای دسته دو برام ارسال کردن,کلیک fn خش داشت,خود کیبورد خاک خوردگی داشتو همش مو بود,رنگ کلیک W یکم رفته بود,بسته بندی خود کیبورد نابود بود,کلیک fn خش داشت انگار بکی با چاقو باش کار کرده بود😐😂,4 ماه از گارانتیش رفته بود,بسته بندی دیجی کالا که هیچ...کیبوردو سلفون پیچ کرده بودن..عکسو فیلماشونو میزارم. مرجوع زدم,متاسفانه ارزششو نداشت,اگر سالم بود چرا ارزششو داشت اما خب این خدا میدونه دست چندم بود!! دیجی تایید کن
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.588)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Significant negative sentiment due to damaged condition (scratches, discoloration, broken keys), coupled with disappointment regarding the product's quality and the poor packaging. The user explicitly states it's a second
+----------------------------------------
+
+COMMENT 266/304
+ID: 2010
+TEXT: کیبورد خوب و سنگینیه ولی معلومه که کپی از یه محصول دیگه است و زیاد راحت نیست اوایل یکم دست رو اذیت میکنه ولی وقتی جک اش رو میزنی بالا خیلی بهتر میشه و اینکه چاپ روی دکمه هاش رو انگار با لاک کشیدن
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.582)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed negative sentiment: mentions "سنگینیه" (heavy) and discomfort, despite acknowledging a potential improvement with the jack. The final statement about the printing suggests a manufacturing issue.
+----------------------------------------
+
+COMMENT 267/304
+ID: 2088
+TEXT: فیسش که قشنگه مخصوصا که من صورتی خریدم چراغ دورشم صورتیه ولی از بابت کاراییش نمیدونم چه نظری بدم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.716)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: The review praises the appearance ("قشنگه") and color matching, indicating a positive initial impression. However, the uncertainty about functionality suggests a neutral stance overall.
+----------------------------------------
+
+COMMENT 268/304
+ID: 2096
+TEXT: نور دورش خیلی زیاده و در شب اطاق تون رو روشن میکنه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.564)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Excessive brightness and light pollution indicate a negative experience.
+----------------------------------------
+
+COMMENT 269/304
+ID: 2097
+TEXT: خوب بود ولی من اشتباه سفارش دادم مرجوع شد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.598)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “اشتباه سفارش دادم مرجوع شد” indicates a negative experience due to an error, despite a potentially positive initial impression (“خوب بود”).
+----------------------------------------
+
+COMMENT 270/304
+ID: 2103
+TEXT: کیفتش خوبه اما قمتش بالاست.تو شگفت انگیز قابل قبوله
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.622)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: The review states "کیفتش خوبه" (its quality is good) which is a positive indicator, but also mentions "قیمت بالاست" (high price), indicating a negative aspect. Overall, the "کیفتش خوبه" outweighs the price concern, leading to a positive classification.
+----------------------------------------
+
+COMMENT 271/304
+ID: 2104
+TEXT: حتی اگر تمام مس باشه هم میتونست قیمت مناسب تری داشته باشه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.635)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review expresses disappointment about the price, regardless of the material, indicating a negative sentiment.
+----------------------------------------
+
+COMMENT 272/304
+ID: 2107
+TEXT: مشکیش زشت بود و کم نور
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.701)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Negative: "زشت" (ugly) is a clear negative descriptor.
+----------------------------------------
+
+COMMENT 273/304
+ID: 2111
+TEXT: با گوشی نتونستم کانکت بشم در تنظیمات گوشی زبان را از فارسی به انگلیسی تغییر دادم کانکت شد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.347)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Connection issue resolved by changing language, indicating a negative experience due to the initial problem.
+----------------------------------------
+
+COMMENT 274/304
+ID: 2115
+TEXT: سه بار سفارش ساعت دادم از برندای مختلف و مرجوع کردم یا بخاطر پلمپ نبودن یا بخاطر خرابی خداروشکر این سفارشم پلمپ و سالم به دستم رسید و بلافاصله هم برنامه رو نصب و استفادش کردم در کل نسبت به برندای دیگه که الکی گرونن امکانات بهتری داره و ساعت رونیه و من گوشیم ایفون و مشکلی ندارم و سریع وصل میشه سریع هم متصل میشه بدون مکس
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.465)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Positive: Despite initial concerns about previous experiences, the reviewer ultimately finds the product "better than other brands" and highlights its features (Rony) and compatibility with iPhone, indicating satisfaction.
+----------------------------------------
+
+COMMENT 275/304
+ID: 2144
+TEXT: من برای گوشیم گرفتم ک مدلش s24 ultra هستش و دو سر type-c بودش و به کارم نیومد متاسفانه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.661)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicitly states the purchase was "unsuccessful" and doesn't express satisfaction.
+----------------------------------------
+
+COMMENT 276/304
+ID: 2147
+TEXT: عرض سلام جنس خیلی معمولی وفقط تو شگفت انگیز قیمتش تقریبا می ارزه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.697)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “معمولی ولی برای این قیمت خوب” indicates a positive value judgment despite acknowledging a lack of exceptional quality.
+----------------------------------------
+
+COMMENT 277/304
+ID: 2150
+TEXT: نوشته سی وات ولی واقعا در حد 15واتم نیست بنظرم فقط برای گوشی ساده و ایرپاد کارایی دارع
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.533)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicitly states poor performance compared to advertised wattage, suggesting dissatisfaction.
+----------------------------------------
+
+COMMENT 278/304
+ID: 2177
+TEXT: جعبش دو چسب بود ومرجوع کردم
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.643)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Product arrived with double
+----------------------------------------
+
+COMMENT 279/304
+ID: 2181
+TEXT: با توجه به اینکه دو سال ضمانت دارد باید محصول خوبی باشد. شکل زیبایی دارد و خیلی سریع شارژ می کند ولی قیمت این محصول در سایر فروشگاه ها زیر 600 هزار تومان هست که دیجی کالا پس از تخفیف شگفت انگیز, قیمت محصول را زیر 600 هزار تومان اعلام می کتد.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.576)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: The reviewer acknowledges a good price and positive features (fast charging, attractive design), suggesting a positive overall experience.
+----------------------------------------
+
+COMMENT 280/304
+ID: 2241
+TEXT: برند هادرون حرفی واسه گفتن نمیزاره کیفیت خوب گارانتی درست
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.593)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Customer expresses strong negative sentiment about Hadrone brand, citing poor quality and incorrect warranty – clear dissatisfaction.
+----------------------------------------
+
+COMMENT 281/304
+ID: 2255
+TEXT: خوبه فقط دقت کنید که داخل بسته 4تا نیم‌قلمیه و 8تا قلمی. نصف نصف نیست.
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.694)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Explicitly states a discrepancy between expected and actual quantities, indicating dissatisfaction.
+----------------------------------------
+
+COMMENT 282/304
+ID: 2257
+TEXT: بهتر بود به تعداد مساوی باتری قلمی و نیم قلم داخلش می‌بود
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.714)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Customer expresses dissatisfaction with battery configuration (uneven distribution)
+----------------------------------------
+
+COMMENT 283/304
+ID: 2260
+TEXT: یه بسته بخرین بزارین تو خونه کار راه اندازه,جنسش بد نیست
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.66)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “بد نیست” (isn’t bad) is a neutral statement, lacking strong positive sentiment. It doesn’t express satisfaction or a recommendation.
+----------------------------------------
+
+COMMENT 284/304
+ID: 2273
+TEXT: تازه گرفتم فعلا 2تاشو استفاده کردم خوب بوده
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.743)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Currently good experience after using it for 2 times.
+----------------------------------------
+
+COMMENT 285/304
+ID: 2296
+TEXT: خوب بود 4 تا نیم قلمه 8 تا قلمی
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.704)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Mixed sentiment: “خوب” (good) is positive, but the numbers (4 and 8) suggest a quantity/size issue, leaning towards neutral.
+----------------------------------------
+
+COMMENT 286/304
+ID: 2312
+TEXT: چیزی که به دستم رسید این بود, شما مقایسه کنید با عکس دیجیکالا
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.531)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Comparing to Digikala suggests dissatisfaction with visual representation, likely a negative experience.
+----------------------------------------
+
+COMMENT 287/304
+ID: 2315
+TEXT: به قیمتش می ارزه اگه همش کار کنه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.732)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: "به قیمتش می ارزه" (It's worth the price) indicates satisfaction and a positive assessment, despite potential issues.
+----------------------------------------
+
+COMMENT 288/304
+ID: 2325
+TEXT: خوبه البته هنوز استفاده نکردم الکالاینها خوبن ولی چرا دیجی کالا دیر ارسال میکنه اینجوری فایده نداره بعد 20 روز یه ماه به دست ادم میرسونه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.708)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Mixed sentiment: Praises the product ("خوبه") but expresses frustration with delivery delays and lack of value.
+----------------------------------------
+
+COMMENT 289/304
+ID: 2339
+TEXT: تاریخش تا 2033 وسالم با بسته بندی عالی.فقط درمورد دوامش باید زمان بگذره نظر بدم.فعلا خوبه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.724)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Factual statement about delivery and initial quality, but durability needs time to assess.
+----------------------------------------
+
+COMMENT 290/304
+ID: 2349
+TEXT: بد نیست من همیشه از اینها می خرم چون دو مدل را دارد هم کوچک وهم بزرگ و اینکه نسبت به بقیه عمر بالاتری دارد
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.685)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: Consistent repurchase and mention of multiple sizes/longer lifespan indicate a positive experience.
+----------------------------------------
+
+COMMENT 291/304
+ID: 2375
+TEXT: باطری معمولیه, اما خیلی عالیه. ضمنا شارژی نیست.
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.698)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “خیلی عالیه” indicates a positive sentiment despite the lack of charging.
+----------------------------------------
+
+COMMENT 292/304
+ID: 2388
+TEXT: هشت تا قلمی و چهارتا نیم قلمی
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.516)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Purely descriptive statement about the product quantity, lacking any sentiment.
+----------------------------------------
+
+COMMENT 293/304
+ID: 2389
+TEXT: جعبه ی کار شکسته بود امیدوارم عمر باطری طولانی باشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.587)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Broken box indicates a negative initial experience, despite hope for battery longevity.
+----------------------------------------
+
+COMMENT 294/304
+ID: 2396
+TEXT: تعداد باتری های نیم قلم رو میشه بیشتر کرد به جای اینکه با فیبر توش را پر کنید
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.645)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: User requests a change (more battery cells) indicating dissatisfaction with the current design/implementation.
+----------------------------------------
+
+COMMENT 295/304
+ID: 2410
+TEXT: جنسش باید خوب باشه ولی به نسبت گرون بود و چون خرید تکراری بود مرجوع کردم ولی مجهش رو با کیف پول برنگردوندن
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.663)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: High price combined with a return due to dissatisfaction indicates a negative experience.
+----------------------------------------
+
+COMMENT 296/304
+ID: 2415
+TEXT: امتحان نکردم ولی برند خوبیه
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.721)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “پیشنهاد نمیکنم” (explicitly stating not recommending, despite mentioning a good brand)
+----------------------------------------
+
+COMMENT 297/304
+ID: 2435
+TEXT: بااینکه خیلی دیر ارسال شد و بدون اطلاع قبلی به تاخیر افتاد خوب بود
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.653)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Delayed delivery and lack of prior notification indicates dissatisfaction.
+----------------------------------------
+
+COMMENT 298/304
+ID: 2440
+TEXT: حاوی 4 تا نیم قلم و 8 تا باتری قلمی بود
+HOOSHVARE (BERT) PREDICTION: Positive (Score: 0.614)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Factual statement about the contents of the order; no sentiment expressed.
+----------------------------------------
+
+COMMENT 299/304
+ID: 2446
+TEXT: عالی بود ولی توی طولانی مدت خودشو نشون میده
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.495)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “عالی بود” indicates positive sentiment, but the follow
+----------------------------------------
+
+COMMENT 300/304
+ID: 2448
+TEXT: امیدوارم کیفیتش مثل خیلی از باطری های بازار نباشه
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.633)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: Expresses fear of poor quality, indicating a negative expectation.
+----------------------------------------
+
+COMMENT 301/304
+ID: 2474
+TEXT: بسته بندی تمییزی داره .
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.647)
+OLLAMA PREDICTION: Positive
+OLLAMA REASON: “بسته بندی تمییزی داره” implies satisfaction with the product presentation, suggesting a positive experience.
+----------------------------------------
+
+COMMENT 302/304
+ID: 2489
+TEXT: تاریخ نداشت. پلمپش هم باز شده بود.
+HOOSHVARE (BERT) PREDICTION: Negative (Score: 0.652)
+OLLAMA PREDICTION: Neutral
+OLLAMA REASON: Factual statement about the product's condition (tampered seal) – no sentiment expressed.
+----------------------------------------
+
+COMMENT 303/304
+ID: 2492
+TEXT: بسته پلمپش باز شده بود
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.727)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: The review states the package was opened, indicating a negative experience due to potential damage or tampering.
+----------------------------------------
+
+COMMENT 304/304
+ID: 2493
+TEXT: من فقط باطری خریدم دیگه خپب و بد نداره
+HOOSHVARE (BERT) PREDICTION: Neutral (Score: 0.444)
+OLLAMA PREDICTION: Negative
+OLLAMA REASON: “بد نداره” indicates a neutral or slightly positive sentiment, but the context of only buying a battery suggests a basic, acceptable product, leaning towards negative due to the limited purchase.
+----------------------------------------
+
