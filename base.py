@@ -2,7 +2,7 @@ import re
 import unicodedata
 
 
-def persian_text_preprocessing(text, stop_words=None):
+def persian_text_preprocessing(text, stop_words=None, stem=False):
     if not isinstance(text, str):
         return ""
 
@@ -90,5 +90,36 @@ def persian_text_preprocessing(text, stop_words=None):
         text = ' '.join(words)
 
     text = unicodedata.normalize('NFC', text)
+    if stem:
+        words = text.split()
+        stemmed_words = [_stem(word) for word in words]
+        text = ' '.join(stemmed_words)
 
     return text
+
+
+def _stem(word: str) -> str:
+    ends = [
+        "ات",
+        "ان",
+        "ترین",
+        "تر",
+        "م",
+        "ت",
+        "ش",
+        "یی",
+        "ی",
+        "ها",
+        "ٔ",
+        "‌ا",
+        "‌",
+    ]
+
+    for end in ends:
+        if word.endswith(end):
+            word = word[:-len(end)]
+
+    if word.endswith("ۀ"):
+        word = word[:-1] + "ه"
+
+    return word
