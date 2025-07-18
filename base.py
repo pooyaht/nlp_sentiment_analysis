@@ -8,6 +8,10 @@ def persian_text_preprocessing(text, stop_words=None, stem=False):
 
     text = unicodedata.normalize('NFC', text)
 
+    text = re.sub(r'@[a-zA-Z0-9_]+', '', text)
+    text = re.sub(
+        r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', '', text)
+
     persian_char_map = {
         # Arabic Kaf to Persian Kaf
         'ك': 'ک',  # U+0643 -> U+06A9
